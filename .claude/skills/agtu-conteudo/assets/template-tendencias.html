@@ -161,6 +161,31 @@ p{font-weight:400}
 .s5 .label5{margin:26px 0 2px!important}
 .s5 .disc2 span{padding:11px 0!important}
 .m5{width:200px!important;right:74px!important;bottom:96px!important}
+
+/* tela 5 v4: quatro zonas com respiro */
+.v4 .z1{position:absolute;left:80px;right:80px;top:190px}
+.v4 .z1 h2{color:#fff;font-size:68px;line-height:1.06;max-width:900px}
+.card5{position:absolute;left:80px;right:80px;top:440px;background:#fff;border-radius:10px;padding:36px 44px 32px}
+.card5 .pre{font-size:30px;font-weight:500;color:var(--text)}
+.card5 .name{font-size:64px;font-weight:700;letter-spacing:-0.02em;line-height:1.02;color:var(--navy);margin-top:8px;max-width:760px}
+.card5 .post{font-size:30px;font-weight:600;color:var(--navy);margin-top:6px}
+.checks{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:26px;padding-top:22px;border-top:1.5px solid var(--line)}
+.checks span{font-size:23px;font-weight:500;color:var(--text);padding-left:30px;position:relative}
+.checks span::before{content:"";position:absolute;left:2px;top:8px;width:12px;height:7px;border-left:3px solid var(--red);border-bottom:3px solid var(--red);transform:rotate(-45deg)}
+.study{position:absolute;left:80px;top:870px;width:620px}
+.study .lab{font-size:22px;font-weight:650;letter-spacing:.14em;text-transform:uppercase;color:#9FB3D9;margin-bottom:10px}
+.study ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px 30px}
+.study li{font-size:26px;color:#DCE5F7;line-height:1.3}
+.m5v{position:absolute;right:90px;bottom:250px;width:190px}
+.ctabar{position:absolute;left:80px;right:80px;bottom:120px;background:var(--red);border-radius:10px;padding:26px 36px;display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}
+.ctabar b{font-size:44px;font-weight:700;color:#fff;letter-spacing:-0.01em}
+.ctabar span{font-size:26px;color:#FFE3E3;font-weight:500}
+
+.v4 .z1 h2{font-size:60px!important;max-width:940px!important}
+.card5{top:420px!important}
+.checks{display:grid!important;grid-template-columns:1fr 1fr;gap:10px 28px!important}
+.study{top:880px!important}
+.m5v{bottom:262px!important}
 </style></head><body>
 
 <section class="slide s1 anim" id="s1">
@@ -224,24 +249,24 @@ p{font-weight:400}
   <div class="foot"><span>American Global Tech University</span><span>04 / 05</span></div>
 </section>
 
-<section class="slide s5" id="s5">
+<section class="slide s5 v4" id="s5">
   <div class="head"><div class="logo"><img src="logo_white.png" alt="AGTU"><sup>®</sup></div></div>
-  <div class="body">
+  <div class="z1">
     <div class="bar"></div>
-    <h2 class="q5">A próxima oportunidade vai exigir uma nova competência.</h2>
-    <p class="dom">Domine a IA com o <span class="hl">Mestrado em Inteligência Artificial</span> da AGTU.</p>
-    <div class="facts4">
-      <span>100% online</span><span>Diploma internacional</span>
-      <span>Aulas em português</span><span>Aulas ao vivo toda semana</span>
-    </div>
-    <p class="label5">O que você estuda</p>
-    <div class="disc2">
-      <span>Engenharia de IA</span><span>Aplicações de IA</span>
-      <span>Processamento de Linguagem Natural</span><span>Robótica e Sistemas Autônomos</span>
-    </div>
+    <h2>A próxima oportunidade vai exigir uma nova competência.</h2>
   </div>
-  <div class="cta5">Comente <b>AGENTE</b> e receba a grade completa e as condições de bolsa.</div>
-  <img class="mascot m5" src="mascote.png" alt="Mascote">
+  <div class="card5">
+    <p class="pre">Domine a IA com o</p>
+    <p class="name">Mestrado em Inteligência Artificial</p>
+    <p class="post">da AGTU</p>
+    <div class="checks"><span>100% online</span><span>Diploma internacional</span><span>Aulas em português</span><span>Aulas ao vivo toda semana</span></div>
+  </div>
+  <div class="study">
+    <p class="lab">O que você estuda</p>
+    <ul><li>Engenharia de IA</li><li>Aplicações de IA</li><li>Processamento de Linguagem Natural</li><li>Robótica e Sistemas Autônomos</li></ul>
+  </div>
+  <img class="m5v" src="mascote.png" alt="Mascote">
+  <div class="ctabar"><b>Comente AGENTE</b><span>e receba a grade completa e as condições de bolsa</span></div>
   <div class="foot"><span>Universidade americana licenciada na Flórida (CIE #12506) e acreditada pela ASIC</span><span>05 / 05</span></div>
 </section>
 </body></html>
