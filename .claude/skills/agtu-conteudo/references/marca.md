@@ -25,23 +25,17 @@ Profissional de 40 a 55 anos, com graduação e carreira feita, especialista, qu
 - "Seu futuro" no máximo uma vez por peça, e só no fim.
 - Humor vem da identificação (rotina de quem estuda trabalhando, família, IA fazendo trapalhada), nunca de ridicularizar o público.
 
-## Visual (padrão aprovado em 26/09/2026: "caderno de estudo")
-Referências: carrosséis de agências e criadores com papel, caneta e marca-texto (Friday Marketing, Your Social Team, Thiago Hernandes).
-- Fundo papel #F5F2EA com quadriculado azul muito leve (45 px) e textura de grão. Última tela: azul AGTU #1E417D com quadriculado branco.
-- **Uma única família de fonte em todo o post: Bricolage Grotesque (400 a 800).** Nada de segunda fonte.
-- Logo AGTU sempre com ® ao lado.
-- "AGTU TENDÊNCIAS" aparece só no balão do mascote (capa e fechamento), em caixa alta com espaçamento. Não repetir nas páginas internas.
-- Títulos enormes em Bricolage Grotesque 800, podendo sair da largura; uma palavra com marca-texto vermelho (#EC2023 a 32%), inclinado como feito à mão.
-- Cabeçalho de revista: "AGTU Tendências" e "edição nº XX" em Instrument Serif itálico; a edição em azul #2340D8.
-- Números de lista em Instrument Serif itálico ("01", "02"), azul #2340D8. Sem círculo desenhado e sem letra de mão (Caveat foi reprovada: parece amador).
-- Bloco amarelo #FFE15A só para o CTA, com texto em Bricolage Grotesque 800.
-- Fala da coruja: balão de fala limpo (retângulo arredondado azul-escuro #14254F ou branco na tela azul, com rabicho reto apontando para ela). Nunca nuvem de pensamento.
-- Prints reais colados com fita, levemente inclinados.
-- Texto de apoio em Inter, tinta #14254F.
-- **Proibido:** nuvens de pensamento, letra cursiva de mão, pílulas com texto, botões com ponto vermelho, cartões iguais com sombra, degradê de fundo, ícones genéricos. Deixam o post com cara de template de IA.
-- Carrossel de 5 telas: capa (com mascote, pode ser vídeo animado), 3 telas de conteúdo sem mascote, fechamento (com mascote).
-- Capa: gancho que abre curiosidade em até 5 palavras grandes + uma pergunta que só o carrossel responde.
-- Fechamento: uma pergunta direta, o curso em destaque, um CTA com palavra-chave no post-it e uma linha de "salve".
+## Visual (padrão aprovado em 26/09/2026: institucional, de universidade)
+O post precisa parecer feito por uma universidade, não por um perfil de dicas.
+- Fundo branco; última tela azul AGTU #1E417D. Sem papel quadriculado, sem textura, sem marca-texto, sem post-it.
+- Uma família de fonte: Inter Tight (400 a 700). Exceção única: a fala do mascote em Nunito 800, arredondada.
+- Cabeçalho: logo AGTU com ® à esquerda e uma linha fina embaixo. Rodapé: linha fina, "American Global Tech University" (ou a fonte da informação) à esquerda e "01 / 05" à direita.
+- Barra vermelha curta (72 × 6 px) acima de cada título. Destaque de palavra-chave: azul AGTU com sublinhado vermelho.
+- Listas com linhas finas separando os itens e numeração discreta em vermelho ("01").
+- Blocos de destaque com cantos quase retos (raio 6 px): cinza-claro para frases, azul AGTU para a pergunta principal.
+- Mascote pequeno só na capa e no fechamento, com balão "Série: AGTU Tendências".
+- Última tela vende o curso: título "Domine a IA com o Mestrado em Inteligência Artificial da AGTU.", 4 disciplinas reais, fatos (online e em português, aulas ao vivo semanais, 36 créditos), CTA em cartão branco e licença CIE + ASIC no rodapé.
+- **Proibido:** papel quadriculado, marca-texto, post-it, letra de mão, nuvem de pensamento, pílulas, várias fontes. Parecem perfil de dicas.
 
 ## CTA por etapa
 | Etapa | Pedido | Exemplo |

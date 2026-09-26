@@ -4,7 +4,7 @@ Um post por semana com uma tendência real das áreas em que a AGTU tem curso. Q
 
 ## Formato fixo
 - Carrossel de 5 telas. Capa em vídeo animado de 6 s (coruja entrando e balançando, título surgindo, marca-texto passando) + versão estática.
-- Cabeçalho de revista em todas as telas: logo AGTU à esquerda; "AGTU Tendências" + "edição nº XX" à direita.
+- Nome da série só no balão do mascote: "Série: AGTU Tendências". Não repetir nas páginas internas.
 - Coruja pequena só na capa e no fechamento, com balão de fala "AGTU Tendências".
 - Se a tendência for um produto, trazer a identidade dele (ícone oficial, nome e slogan do fabricante) e prints reais com crédito.
 
@@ -41,3 +41,6 @@ Parágrafo curto com o que é, a curiosidade da tela 3, pergunta para comentári
 - Título da capa: provocação concreta ("A Meta lançou um funcionário.") funciona melhor que metáfora ("A IA ganhou mãos.").
 - Exemplos de uso: preferir o que impressiona um executivo (negocia em seu nome, trabalha com o app fechado, cartão de uso único) a tarefas domésticas.
 - Tela 3 em forma de perguntas que levam a tendência para dentro da empresa ("Se ele negocia a sua conta, quanto falta para negociar com o seu fornecedor?").
+
+- Texto final da edição 01 foi escrito pela Giovanna; usar como referência de tom: frases diretas, perguntas para quem lidera, fechamento que vende o curso.
+- Evitar citar Harvard/MIT e outras universidades parceiras sem confirmação jurídica, e evitar duração do curso (o site em português diz até 24 meses; o em inglês, até 18).
