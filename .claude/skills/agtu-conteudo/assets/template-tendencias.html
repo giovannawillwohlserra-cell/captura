@@ -238,6 +238,39 @@ p{font-weight:400}
 .sd .waffle{margin-top:36px!important}
 .sd .then{margin-top:40px!important}
 .foot{gap:24px}
+/* mascote: aceno chamando para o conteúdo (camadas em rig/), piscada, respiração e giro leve em 3D */
+.anim .mwrap.rig{animation:none;aspect-ratio:1155/1443;perspective:1500px}
+.anim .mwrap.rig img{animation:none}
+.rig .breath,.rig .lean{position:absolute;inset:0;transform-origin:50% 100%}
+.rig .lean{transform-style:preserve-3d}
+.rig img.lay{position:absolute;left:0;top:0;width:100%;height:100%;display:block}
+.rig img.eye.e{transform-origin:45.8% 19.13%}
+.rig img.eye.d{transform-origin:65.97% 19.2%}
+.rig .mshadow{position:absolute;left:27%;right:15%;bottom:8.6%;height:5.4%;border-radius:50%;background:radial-gradient(closest-side,rgba(20,37,79,.26),rgba(20,37,79,0))}
+.anim .rig .breath{animation:breath 3s ease-in-out infinite}
+.anim .rig .lean{animation:lean 6s ease-in-out infinite}
+.anim .rig img.fore{transform-origin:22.34% 48.51%;animation:wave 6s linear infinite}
+.anim .rig img.eye{animation:blink 6s linear infinite}
+.anim .rig .mshadow{animation:shadow 3s ease-in-out infinite}
+@keyframes breath{0%,100%{transform:scale(1,1)}50%{transform:scale(1.006,1.014)}}
+@keyframes shadow{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.985)}}
+@keyframes blink{0%,7%{transform:scaleY(1)}8.2%{transform:scaleY(.08)}9.6%,70%{transform:scaleY(1)}71.2%{transform:scaleY(.08)}72.6%,100%{transform:scaleY(1)}}
+@keyframes wave{
+  0%,24%{transform:rotate(0deg);animation-timing-function:cubic-bezier(.25,.8,.3,1.15)}
+  29%{transform:rotate(146deg);animation-timing-function:ease-in-out}
+  32%{transform:rotate(126deg);animation-timing-function:ease-in-out}
+  35%{transform:rotate(152deg);animation-timing-function:ease-in-out}
+  38%{transform:rotate(126deg);animation-timing-function:ease-in-out}
+  41%{transform:rotate(152deg);animation-timing-function:ease-in-out}
+  44%{transform:rotate(130deg);animation-timing-function:ease-in-out}
+  47%,50%{transform:rotate(140deg);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+  58%,100%{transform:rotate(0deg)}}
+@keyframes lean{
+  0%,22%{transform:rotate(0deg) rotateY(0deg) scale(1,1)}
+  25%{transform:rotate(.6deg) rotateY(0deg) scale(1.01,.98)}
+  30%{transform:rotate(-2.4deg) rotateY(-8deg) scale(.995,1.02)}
+  34%,50%{transform:rotate(-1.8deg) rotateY(-7deg) scale(1,1)}
+  60%,100%{transform:rotate(0deg) rotateY(0deg) scale(1,1)}}
 </style></head><body>
 
 <section class="slide s1 anim" id="s1">
@@ -249,7 +282,16 @@ p{font-weight:400}
   </div>
   <div class="muse"><img src="muse_icon.png" alt="Muse"><p><b>Muse</b>your personal AI agent, Meta</p></div>
   <div class="speech"><small>Série:</small> AGTU Tendências</div>
-  <div class="mwrap"><img src="mascote.png" alt="Mascote"></div>
+  <div class="mwrap rig">
+    <div class="mshadow"></div>
+    <div class="breath"><div class="lean">
+      <img class="lay" src="m_base.png" alt="Mascote">
+      <img class="lay fore" src="m_antebraco.png" alt="">
+      <img class="lay" src="m_cotovelo.png" alt="">
+      <img class="lay eye e" src="m_olho_e.png" alt="">
+      <img class="lay eye d" src="m_olho_d.png" alt="">
+    </div></div>
+  </div>
   <div class="foot"><span>American Global Tech University</span><span>01 / 06</span></div>
 </section>
 

@@ -8,7 +8,8 @@ const fs = require('fs');
   await p.goto('file://' + __dirname + '/' + arquivo);
   await p.waitForLoadState('networkidle'); await p.evaluate(() => document.fonts.ready);
   // estado final das animações para o PNG estático
-  await p.evaluate(() => document.getAnimations().forEach(a => { a.pause(); a.currentTime = 3600; }));
+  await p.evaluate(() => document.getAnimations().forEach(a => { a.pause(); a.currentTime = 2900; }));
+  // 2,9 s: texto completo e mascote no meio do aceno
   const ordem = ['s1', 's2', 'sd', 's3', 's4', 's5'];
   for (let i = 0; i < ordem.length; i++) await p.locator('#' + ordem[i]).screenshot({ path: `AGTU_Tendencias_01_${i + 1}.png` });
   if (process.argv[2] === 'video') {
