@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>AGTU Tendências · Muse</title>
+<link href="fonts.css" rel="stylesheet">
+<style>
+:root{
+  --navy:#1E417D; --ink:#0E1F3D; --red:#EC2023;
+  --muse:#0A71F2; --sky1:#EAF3FF; --sky2:#BFDBFF; --paper:#FFFFFF; --grey:#5B6B86;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#d6dce6;font-family:Inter,sans-serif;display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;flex:0 0 auto;color:var(--ink);
+  background:linear-gradient(180deg,var(--paper) 0%,var(--sky1) 55%,var(--sky2) 100%)}
+h1,h2{font-family:"Inter Tight",sans-serif;font-weight:800;letter-spacing:-0.01em}
+.hand{font-family:Caveat,cursive;font-weight:700}
+.logo{position:absolute;left:80px;top:74px;height:58px}
+.serie{position:absolute;right:80px;top:78px;display:flex;align-items:center;gap:12px;background:var(--navy);color:#fff;
+  border-radius:40px;padding:12px 26px 12px 20px;font:700 27px "Inter Tight"}
+.serie i{width:14px;height:14px;border-radius:50%;background:var(--red);display:block}
+.serie small{font:600 22px Inter;opacity:.7;margin-left:4px}
+.owl{position:absolute}
+.note{position:absolute;background:#fff;border-radius:28px;padding:22px 30px;font-size:44px;line-height:1.05;color:var(--navy);
+  box-shadow:0 10px 30px rgba(14,31,61,.12)}
+.note::after{content:"";position:absolute;width:30px;height:30px;background:#fff;transform:rotate(45deg)}
+.src{position:absolute;left:80px;bottom:46px;font-size:21px;color:var(--grey);max-width:620px;line-height:1.3}
+/* ---------- capa ---------- */
+.s1 .museid{position:absolute;left:80px;top:220px;display:flex;align-items:center;gap:26px}
+.s1 .museid img{width:132px;height:132px;border-radius:30px;box-shadow:0 12px 30px rgba(10,113,242,.25)}
+.s1 .museid p{font-size:30px;color:var(--grey);line-height:1.3}
+.s1 .museid b{display:block;font:800 40px "Inter Tight";color:var(--ink);letter-spacing:-0.01em}
+.s1 h1{position:absolute;left:80px;top:410px;width:880px;font-size:98px;line-height:.98}
+.s1 h1 .scrib{position:relative;display:inline-block}
+.s1 h1 .scrib svg{position:absolute;left:-8px;right:-8px;bottom:-22px;width:calc(100% + 16px);height:40px}
+.s1 .sub{position:absolute;left:80px;top:760px;width:520px;font-size:36px;line-height:1.35;color:var(--ink)}
+.s1 .owl{right:-40px;bottom:-30px;width:600px}
+.s1 .note{left:320px;top:1010px;transform:rotate(-3deg)}
+.s1 .note::after{right:-12px;top:40px}
+/* ---------- tela 2 ---------- */
+.s2 h2{position:absolute;left:80px;top:190px;width:560px;font-size:72px;line-height:1.02}
+.steps{position:absolute;left:80px;top:470px;width:520px;display:flex;flex-direction:column;gap:30px}
+.step{display:grid;grid-template-columns:70px 1fr;gap:18px;align-items:start}
+.step .n{width:64px;height:64px;border-radius:50%;background:var(--muse);color:#fff;font:800 32px "Inter Tight";display:grid;place-items:center}
+.step b{display:block;font-size:36px;line-height:1.15;font-weight:600}
+.step span{display:block;font-size:28px;line-height:1.35;color:var(--grey);margin-top:6px}
+.phone{position:absolute;right:70px;top:190px;width:360px;border-radius:44px;overflow:hidden;box-shadow:0 30px 60px rgba(14,31,61,.25);border:10px solid #fff}
+.phone img{display:block;width:100%}
+.s2 .owl{right:-30px;bottom:-40px;width:330px}
+.s2 .note{left:80px;bottom:120px;font-size:42px;transform:rotate(-2deg)}
+.s2 .note::after{right:-12px;top:36px}
+/* ---------- tela 3 ---------- */
+.s3 h2{position:absolute;left:80px;top:190px;width:920px;font-size:66px;line-height:1.03}
+.rw{position:absolute;left:80px;right:80px;top:420px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.rw div{background:#fff;border-radius:28px;padding:28px 30px}
+.rw b{display:block;font:800 36px "Inter Tight";margin-bottom:8px}
+.rw span{font-size:28px;line-height:1.35;color:var(--grey)}
+.rw .w b{color:var(--red)}
+.prompt{position:absolute;left:80px;width:600px;top:700px;background:#fff;border-radius:36px;padding:34px 34px 28px;box-shadow:0 20px 50px rgba(14,31,61,.16)}
+.prompt .hd{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+.prompt .hd img{width:54px;height:54px;border-radius:14px}
+.prompt .hd p{font-size:28px;line-height:1.25}
+.prompt .hd p b{display:block;font-weight:600}
+.btns{display:flex;flex-direction:column;gap:12px}
+.btns span{border:2px solid #D6E2F5;border-radius:18px;padding:14px 20px;font-size:28px;font-weight:500}
+.btns span.best{border-color:var(--muse);background:#EEF5FF;color:var(--muse);font-weight:600}
+.btns span.risk{color:var(--red)}
+.s3 .owl{right:-60px;bottom:-40px;width:420px}
+.s3 .note{right:60px;top:700px;width:330px;font-size:40px;transform:rotate(3deg)}
+.s3 .note::after{left:60px;bottom:-12px}
+/* ---------- tela 4 ---------- */
+.s4{background:linear-gradient(180deg,#0F2B5B 0%,var(--navy) 100%);color:#fff}
+.s4 h2{position:absolute;left:80px;top:190px;width:900px;font-size:80px;line-height:1.02}
+.s4 .card{position:absolute;left:80px;right:80px;top:500px;background:#fff;color:var(--ink);border-radius:36px;padding:40px 44px 40px;width:620px}
+.s4 .card .k{font-size:28px;font-weight:600;color:var(--red);margin-bottom:10px}
+.s4 .card .t{font:800 50px "Inter Tight";line-height:1.05;margin-bottom:26px}
+.s4 .card .btn{background:var(--navy);color:#fff;border-radius:20px;padding:22px 26px;font-size:31px;line-height:1.3}
+.s4 .card .btn b{background:var(--red);border-radius:10px;padding:2px 12px}
+.s4 .owl{right:-50px;bottom:-30px;width:400px}
+.s4 .note{right:60px;top:760px;font-size:40px;transform:rotate(4deg);width:280px}
+.s4 .note::after{right:110px;bottom:-12px}
+.s4 .share{position:absolute;left:80px;top:1040px;width:560px;font-size:30px;line-height:1.35;color:#CFE0FA}
+.s4 .foot{position:absolute;left:80px;bottom:56px;display:flex;flex-direction:column;gap:18px}
+.s4 .foot img{height:54px}
+.s4 .foot p{font-size:20px;color:#9FB6DA;line-height:1.35;max-width:600px}
+</style></head><body>
+
+<!-- 1 -->
+<section class="slide s1" id="s1">
+  <img class="logo" src="logo_color.png" alt="AGTU">
+  <div class="serie"><i></i>AGTU Tendências <small>#1</small></div>
+  <div class="museid"><img src="muse_icon.png" alt="Muse"><p><b>Muse</b>your personal AI agent · Meta</p></div>
+  <h1>O agente de IA que <span class="scrib">faz por você<svg viewBox="0 0 400 40" preserveAspectRatio="none"><path d="M4 26 C60 6 120 36 180 18 S300 8 396 22" stroke="#0A71F2" stroke-width="9" fill="none" stroke-linecap="round"/></svg></span> chegou.</h1>
+  <p class="sub">A Meta lançou o Muse em 8 de setembro. Ele manda e-mail, reserva e compra dentro dos apps que você conecta.</p>
+  <img class="owl" src="coruja.png" alt="Mascote da AGTU">
+  <div class="note hand">Li o manual inteiro.<br>Arrasta que eu explico →</div>
+</section>
+
+<!-- 2 -->
+<section class="slide s2" id="s2">
+  <img class="logo" src="logo_color.png" alt="AGTU">
+  <div class="serie"><i></i>AGTU Tendências <small>#1</small></div>
+  <h2>Como funciona, em três passos</h2>
+  <div class="steps">
+    <div class="step"><div class="n">1</div><div><b>Baixe o app ou entre em muse.ai</b><span>iPhone, Android, web e WhatsApp.</span></div></div>
+    <div class="step"><div class="n">2</div><div><b>Diga o que precisa ser feito</b><span>“Preencha a autorização do passeio da escola e marque na agenda.”</span></div></div>
+    <div class="step"><div class="n">3</div><div><b>Conecte só os apps da tarefa</b><span>E-mail, agenda, banco, compras. Um de cada vez.</span></div></div>
+  </div>
+  <div class="phone"><img src="muse_connectors.jpg" alt="Tela de conectores do Muse"></div>
+  <img class="owl" src="coruja.png" alt="Mascote da AGTU">
+  <div class="note hand">Por enquanto, só nos EUA.<br>Mas vem aí.</div>
+  <p class="src">Fonte e imagem: Meta Newsroom e App Store (Muse from Meta), set/2026.</p>
+</section>
+
+<!-- 3 -->
+<section class="slide s3" id="s3">
+  <img class="logo" src="logo_color.png" alt="AGTU">
+  <div class="serie"><i></i>AGTU Tendências <small>#1</small></div>
+  <h2>O que ninguém te conta: a graça está nas permissões</h2>
+  <div class="rw">
+    <div><b>Ler</b><span>Olhar a agenda, ler um e-mail.</span></div>
+    <div class="w"><b>Agir</b><span>Mandar mensagem, fazer uma compra.</span></div>
+  </div>
+  <div class="prompt">
+    <div class="hd"><img src="muse_icon.png" alt=""><p><b>Muse quer enviar um e-mail</b>Toda ação pede a sua resposta:</p></div>
+    <div class="btns">
+      <span class="best">Allow once · só desta vez</span>
+      <span>Allow for this task · nesta tarefa</span>
+      <span>Allow for this site · neste site</span>
+      <span class="risk">Always allow · sempre</span>
+      <span>Deny · não</span>
+    </div>
+  </div>
+  <img class="owl" src="coruja.png" alt="Mascote da AGTU">
+  <div class="note hand">Dica de coruja: comece em “Always ask”. Libera depois.</div>
+  <p class="src">Fonte: Central de Ajuda da Meta, “How Muse works with your guidance and approval”.</p>
+</section>
+
+<!-- 4 -->
+<section class="slide s4" id="s4">
+  <div class="serie" style="background:#fff;color:var(--navy)"><i></i>AGTU Tendências <small style="opacity:.6">#1</small></div>
+  <h2>Quem entende como o agente decide, decide melhor o que liberar.</h2>
+  <div class="card">
+    <p class="k">Aprenda IA de verdade</p>
+    <p class="t">Mestrado em Inteligência Artificial da AGTU. 100% online, em português.</p>
+    <div class="btn">Comente <b>MUSE</b> e receba a grade completa no seu direct</div>
+  </div>
+  <img class="owl" src="coruja.png" alt="Mascote da AGTU">
+  <div class="note hand">Toda semana tem tendência nova aqui.</div>
+  <p class="share">Ou mande para quem já ia clicar em “Always allow” sem ler.</p>
+  <div class="foot"><img src="logo_white.png" alt="AGTU" style="height:54px;width:auto;align-self:flex-start"><p>Muse é marca da Meta. Conteúdo informativo, sem vínculo com a Meta.<br>AGTU · Licenciada na Flórida, EUA · CIE #12506</p></div>
+</section>
+</body></html>

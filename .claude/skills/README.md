@@ -20,6 +20,8 @@ Skills selecionadas em 26/09/2026 para produzir Reels, Stories, carrosséis e po
 | `video` | Planejamento e produção de vídeo curto com IA ou código (Remotion, HeyGen, Veo). | coreyhaines31/marketingskills (MIT) |
 | `image` | Prompts e produção de imagem para redes, com regras de consistência de marca. | coreyhaines31/marketingskills (MIT) |
 | `ad-creative` | Variações de criativo para anúncio pago (Meta, LinkedIn, YouTube). | coreyhaines31/marketingskills (MIT) |
+| `agtu-conteudo` | **A ferramenta da AGTU.** Regras de marca, série AGTU Tendências, mascote coruja, template do carrossel, exportação em PNG e biblioteca com mais de 25 prompts (pauta, ganchos, legenda, humor, imagem, vídeo, stories, revisão). | Criada para a AGTU |
+| `instagram-carousel` | Gera carrosséis em HTML com sistema de design e exporta PNG 1080×1350. | jeevanbavandla/instagram-carousel-skill (MIT) |
 | `frontend-design` | Direção visual que foge do "template de IA": tipografia, grid, hierarquia. Base dos carrosséis e artes em HTML. | anthropics/skills (Apache 2.0) |
 
 Já disponíveis na sua conta e não duplicadas aqui: `canvas-design`, `theme-factory`, `motion-design`, `ux-writing`, `pptx`, `pdf`.
@@ -29,6 +31,7 @@ Já disponíveis na sua conta e não duplicadas aqui: `canvas-design`, `theme-fa
 - `reels-scripting`, `post-scorer`, `gemini-carousel`: dependem de chaves pagas (Apify, Gemini). Instalar quando houver conta.
 - Skills da Remotion (remotion-dev/skills): ótimas para Reels com tipografia animada, mas exigem Node e renderização de vídeo. Entram na fase da ferramenta, se o formato for aprovado.
 - `brand-guidelines` (Anthropic): aplica a marca da Anthropic, não serve para a AGTU.
+- `sergebulaev/instagram-skills`: boas regras de legenda e gancho, mas amarradas ao serviço pago Publora para publicar. As ideias úteis foram para a biblioteca de prompts.
 
 ## Como instalar no seu computador
 
@@ -37,6 +40,10 @@ Já disponíveis na sua conta e não duplicadas aqui: `canvas-design`, `theme-fa
 3. **Claude.ai / app desktop:** em Configurações → Capacidades → Skills, envie cada pasta compactada em .zip (uma skill por arquivo).
 
 ## Ordem de uso
+
+Para qualquer post da AGTU, comece pela `agtu-conteudo`: ela chama as outras na ordem certa.
+
+Ordem geral:
 
 1. `voice-builder` com o material da AGTU → gera `about-me.md` e `voice.md`.
 2. `content-strategy` + `content-matrix` → pilares e ideias por etapa do funil.
