@@ -110,72 +110,120 @@ body{background:#cfd3db;font-family:Inter,sans-serif;display:flex;flex-wrap:wrap
 .anim .museline{animation:fadeUp .5s ease-out 2.4s both}
 .anim .arrow path{stroke-dasharray:400;stroke-dashoffset:400;animation:draw .7s ease-out 2.6s forwards}
 .anim .t1{animation:fadeUp .3s ease-out 2.5s both}
+
+/* ---------- v3 ---------- */
+.s1 h1{top:210px;font-size:176px;width:990px}
+.s1 .sub{top:780px;width:600px;font-size:36px}
+.s1 .owlwrap{right:-20px!important;bottom:-24px!important;width:330px!important}
+.cloud{position:absolute;right:250px;bottom:330px;width:440px;height:250px}
+.cloud .cloudsvg{position:absolute;inset:0;width:100%;height:100%;filter:drop-shadow(0 10px 18px rgba(20,37,79,.15))}
+.cloud p{position:absolute;left:0;right:0;top:62px;text-align:center;line-height:1}
+.cloud .serif{font-size:56px;color:var(--ink);display:block}
+.cloud .hand{font-size:34px;color:var(--pen);display:block;margin-top:6px}
+.s1 .museicon{top:1060px!important;width:128px!important;height:128px!important}
+.s1 .t1{top:1045px!important}
+.s1 .museline{top:1068px!important;width:300px!important;font-size:40px!important}
+.anim .cloud{animation:pop .5s cubic-bezier(.3,1.6,.5,1) 1.5s both;transform-origin:85% 100%}
+.s2 .items,.s3 .items{top:520px}
+.s2 h2{font-size:100px}
+.s2 .items{right:72px;gap:24px}
+.s2 .item p{max-width:800px}
+.qs{position:absolute;left:72px;right:72px;top:560px;display:flex;flex-direction:column;gap:44px}
+.qs .q{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:start}
+.qs .q p{font-family:"Bricolage Grotesque";font-weight:800;font-size:52px;line-height:1.04;letter-spacing:-0.02em}
+.qs .q p span{color:var(--pen)}
+.s3 .hnote{position:absolute;left:72px;bottom:120px;font-size:46px;color:var(--pen);transform:rotate(-1.5deg);width:880px;line-height:1.05}
+.s5 .owl{width:360px!important;right:-10px!important}
+.s5 .cloud{right:210px;bottom:330px;width:380px;height:220px}
+.s5 .cloud .serif{font-size:46px}.s5 .cloud .hand{font-size:30px}.s5 .cloud p{top:52px}
+
+.s1 .sub{top:740px!important;width:520px!important}
+.s1 .cloud{right:30px;bottom:430px;width:430px;height:245px}
+.s5 .cloud{right:24px;bottom:420px;width:340px;height:200px}
+.s5 .cloud p{top:46px}.s5 .cloud .serif{font-size:40px}.s5 .cloud .hand{font-size:27px}
+.s2 .items{gap:26px}
+.s2 .item b{font-size:48px}
+.s2 .item p{font-size:34px}
+
+/* ---------- refinamento: tipografia editorial, sem letra de mão ---------- */
+.hand{font-family:"Instrument Serif",serif!important;font-style:italic!important;font-weight:400!important}
+.kick{font-size:40px!important;color:var(--pen)}
+.mast .hand{font-size:28px!important}
+.page{font-size:30px!important}
+.num{width:auto!important;height:auto!important;display:block!important;font-family:"Instrument Serif",serif;font-style:italic;font-size:78px!important;line-height:.9;color:var(--pen)}
+.item,.qs .q{grid-template-columns:110px 1fr!important}
+.s1 .museline{font-size:38px!important;line-height:1.05!important}
+.s1 .museline small{font-family:Inter;font-style:normal;font-size:24px;margin-top:6px}
+.s3 .hnote{font-size:44px!important;line-height:1.15!important}
+.s5 .save{font-size:38px!important}
+.s5 .sticky{font-family:"Bricolage Grotesque"!important;font-weight:800!important;font-size:44px!important;line-height:1.12!important;letter-spacing:-0.01em;transform:rotate(-1.5deg)!important}
+.s5 .sticky .kw{font-size:42px!important}
+.s5 .course .serif{font-size:40px}
+.cloud{display:none}
+.bubble{position:absolute;right:250px;bottom:372px;background:var(--ink);color:#fff;border-radius:40px;padding:26px 36px 24px;box-shadow:0 18px 36px rgba(20,37,79,.22)}
+.bubble::after{content:"";position:absolute;right:34px;bottom:-26px;width:0;height:0;border-left:30px solid transparent;border-right:6px solid transparent;border-top:34px solid var(--ink)}
+.bubble b{display:block;font-family:"Bricolage Grotesque";font-weight:800;font-size:46px;letter-spacing:-0.02em;line-height:1}
+.bubble span{display:block;font-family:"Instrument Serif";font-style:italic;font-size:30px;color:#B9C8EE;margin-top:6px}
+.b5{background:#fff;color:var(--ink);right:230px;bottom:372px}
+.b5::after{border-top-color:#fff}
+.b5 span{color:var(--pen)}
+.anim .bubble{animation:pop .5s cubic-bezier(.3,1.6,.5,1) 1.5s both;transform-origin:90% 110%}
+@keyframes pop{0%{transform:scale(0);opacity:0}70%{transform:scale(1.06);opacity:1}100%{transform:scale(1);opacity:1}}
+
+.bubble{right:40px!important;bottom:455px!important}
+.b5{right:36px!important;bottom:440px!important}
+.s5 .course p{max-width:480px}
 </style></head><body>
 
 <!-- 1 · capa (versão animada: classe anim) -->
 <section class="slide s1 anim" id="s1">
   <img class="logo" src="logo_color.png" alt="AGTU">
-  <div class="mast"><span class="serif">AGTU Tendências</span><span class="hand">edição nº 01</span></div>
-  <h1 class="big"><span class="w">A</span> <span class="w">IA</span> <span class="w">ganhou</span> <span class="w"><span class="mark">mãos.</span></span></h1>
-  <p class="sub">O <b>Muse</b>, novo agente da Meta, manda e-mail, preenche formulário e faz compra sozinho. O que isso muda no trabalho de quem decide?</p>
-  <div class="sticky">Muda mais do que parece. Arrasta →</div>
+  <h1 class="big"><span class="w">A Meta</span> <span class="w">lançou</span> <span class="w">um</span> <span class="w"><span class="mark">funcionário.</span></span></h1>
+  <p class="sub">Ele negocia em seu nome, compra sem ver o seu cartão e continua trabalhando com o app fechado. O que isso muda para quem lidera?</p>
   <img class="museicon" src="muse_icon.png" alt="Muse">
   <div class="tape t1"></div>
   <p class="museline hand">Muse, your personal AI agent<small>Meta, setembro de 2026</small></p>
-  <p class="avatar hand">Esta coruja é o avatar do agente que a gente criou no Muse.</p>
-  <div class="owlwrap"><img src="coruja.png" alt="Avatar criado no Muse"></div>
+  <div class="bubble"><b>AGTU Tendências</b><span>Edição nº 01</span></div>
+  <div class="owlwrap"><img src="coruja.png" alt="Coruja"></div>
 </section>
-
-<!-- 2 -->
 <section class="slide s2" id="s2">
   <img class="logo" src="logo_color.png" alt="AGTU">
   <div class="mast"><span class="serif">AGTU Tendências</span><span class="hand">edição nº 01</span></div>
-  <p class="kick hand">o que mudou</p>
-  <h2 class="big">Chatbot responde. Agente <span class="mark">entrega.</span></h2>
-  <div class="cols">
-    <div class="col strike"><span class="yr hand">2023, o chatbot</span><p>Você pergunta, ele responde. Você copia, cola e faz o resto.</p></div>
-    <div class="col"><span class="yr hand">2026, o agente</span><p>Você diz o objetivo. Ele planeja, usa os seus apps e volta com a tarefa feita.</p></div>
+  <p class="kick hand">o que ele já faz</p>
+  <h2 class="big">Quatro coisas que um chatbot <span class="mark">não faz</span></h2>
+  <div class="items">
+    <div class="item"><div class="num">01</div><div><b>Negocia em seu nome</b><p>Abre o navegador, preenche o formulário e negocia por você.</p></div></div>
+    <div class="item"><div class="num">02</div><div><b>Trabalha com o app fechado</b><p>Em tarefas longas, segue sozinho e só volta quando algo muda ou precisa do seu ok.</p></div></div>
+    <div class="item"><div class="num">03</div><div><b>Lembra do que você disse</b><p>Antes de mandar o convite do jantar, lembra da restrição alimentar de cada amigo.</p></div></div>
+    <div class="item"><div class="num">04</div><div><b>Compra sem ver o seu cartão</b><p>Cada compra gera um cartão de uso único. O número real fica escondido.</p></div></div>
   </div>
-  <div class="shot"><img src="muse_chat.jpg" alt="Tela do Muse"></div>
-  <div class="tape t2"></div>
-  <p class="note hand">Exemplo da própria Meta: achou a autorização da escola no e-mail, preencheu e só pediu o “ok”.
-    <svg viewBox="0 0 140 60" fill="none"><path d="M4 40 C40 10 90 8 128 28 M112 14 L130 28 L110 40" stroke="#2340D8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></p>
-  <p class="src">Fonte: Meta Newsroom e App Store (Muse from Meta), set/2026.</p>
+  <p class="src">Fonte: Meta Newsroom, “Introducing Muse”, 8 de setembro de 2026. Por enquanto, só nos EUA.</p>
   <span class="page hand">2/5</span>
 </section>
-
-<!-- 3 -->
 <section class="slide s3" id="s3">
   <img class="logo" src="logo_color.png" alt="AGTU">
   <div class="mast"><span class="serif">AGTU Tendências</span><span class="hand">edição nº 01</span></div>
-  <p class="kick hand">na prática</p>
-  <h2 class="big">Onde um agente entra na sua <span class="mark">semana</span></h2>
-  <div class="items">
-    <div class="item"><div class="num hand">1<svg viewBox="0 0 100 100"><path d="M50 6 C82 4 96 30 92 56 C88 86 56 96 32 90 C8 84 2 56 8 36 C14 16 34 8 58 10" stroke="#2340D8" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
-      <div><b>Depois da reunião</b><p>O resumo vai para todos, a próxima reunião entra na agenda e ninguém fica esperando o seu e-mail.</p></div></div>
-    <div class="item"><div class="num hand">2<svg viewBox="0 0 100 100"><path d="M50 6 C82 4 96 30 92 56 C88 86 56 96 32 90 C8 84 2 56 8 36 C14 16 34 8 58 10" stroke="#2340D8" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
-      <div><b>Nas contas</b><p>Três meses de extrato cruzados em segundos, com as assinaturas esquecidas no topo da lista.</p></div></div>
-    <div class="item"><div class="num hand">3<svg viewBox="0 0 100 100"><path d="M50 6 C82 4 96 30 92 56 C88 86 56 96 32 90 C8 84 2 56 8 36 C14 16 34 8 58 10" stroke="#2340D8" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
-      <div><b>Nas metas</b><p>Um objetivo vira plano, com etapas, prazos e lembrete na hora certa.</p></div></div>
+  <p class="kick hand">agora troque a vida pessoal pelo trabalho</p>
+  <h2 class="big">As perguntas que já chegaram na sua <span class="mark">empresa</span></h2>
+  <div class="qs">
+    <div class="q"><div class="num">01</div><p>Se ele negocia a sua conta, <span>quanto falta para negociar com o seu fornecedor?</span></p></div>
+    <div class="q"><div class="num">02</div><p>Se ele trabalha de madrugada, <span>quem revisa o que ele fez?</span></p></div>
+    <div class="q"><div class="num">03</div><p>Se ele lembra do que você gosta, <span>o que vai lembrar do seu cliente?</span></p></div>
   </div>
-  <div class="shot sh1"><img src="muse_spend.jpg" alt="Tela de gastos do Muse"></div>
-  <div class="shot sh2"><img src="muse_goals.jpg" alt="Tela de metas do Muse"></div>
-  <p class="src">Com base nas funções anunciadas pela Meta. Por enquanto, o Muse funciona só nos EUA.</p>
+  <p class="hnote hand">Quem tiver as respostas antes vai decidir como a IA entra na empresa.</p>
   <span class="page hand">3/5</span>
 </section>
-
-<!-- 4 -->
 <section class="slide s4" id="s4">
   <img class="logo" src="logo_color.png" alt="AGTU">
   <div class="mast"><span class="serif">AGTU Tendências</span><span class="hand">edição nº 01</span></div>
   <p class="kick hand">o que continua com você</p>
   <h2 class="big">Antes de delegar, quem lidera <span class="mark">decide</span> três coisas</h2>
   <div class="items">
-    <div class="item"><div class="num hand">1<svg viewBox="0 0 100 100"><path d="M50 6 C82 4 96 30 92 56 C88 86 56 96 32 90 C8 84 2 56 8 36 C14 16 34 8 58 10" stroke="#2340D8" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
+    <div class="item"><div class="num">01</div>
       <div><b>O que ele pode ver e o que pode fazer</b><p>Ler a agenda é uma coisa. Mandar e-mail em seu nome é outra.</p></div></div>
-    <div class="item"><div class="num hand">2<svg viewBox="0 0 100 100"><path d="M50 6 C82 4 96 30 92 56 C88 86 56 96 32 90 C8 84 2 56 8 36 C14 16 34 8 58 10" stroke="#2340D8" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
+    <div class="item"><div class="num">02</div>
       <div><b>Quando ele precisa do seu sim</b><p>O Muse deixa escolher: só desta vez, só nesta tarefa ou sempre.</p></div></div>
-    <div class="item"><div class="num hand">3<svg viewBox="0 0 100 100"><path d="M50 6 C82 4 96 30 92 56 C88 86 56 96 32 90 C8 84 2 56 8 36 C14 16 34 8 58 10" stroke="#2340D8" stroke-width="4" fill="none" stroke-linecap="round"/></svg></div>
+    <div class="item"><div class="num">03</div>
       <div><b>Quem responde se der errado</b><p>O e-mail sai com o seu nome. A conta também.</p></div></div>
   </div>
   <p class="quote big">Delegar para IA virou competência de gestão.</p>
@@ -186,14 +234,13 @@ body{background:#cfd3db;font-family:Inter,sans-serif;display:flex;flex-wrap:wrap
 <!-- 5 -->
 <section class="slide s5" id="s5">
   <img class="logo" src="logo_white.png" alt="AGTU">
-  <div class="mast"><span class="serif">AGTU Tendências</span><span class="hand">edição nº 01</span></div>
   <h2 class="big">Quer usar IA assim no seu trabalho?</h2>
   <div class="course"><span class="serif">isso se aprende no</span><b>Mestrado em Inteligência Artificial da AGTU</b>
     <p>Online e em português. Universidade americana, licenciada na Flórida.</p></div>
   <div class="sticky">Comente <span class="kw">AGENTE</span> e a gente te manda a grade do curso no direct.</div>
   <p class="save hand">Salve para a próxima reunião sobre IA.</p>
-  <p class="avatar hand">A coruja é o avatar que criamos no Muse, não o mascote da AGTU.</p>
-  <img class="owl" src="coruja_final.png" alt="Avatar criado no Muse">
+  <div class="bubble b5"><b>AGTU Tendências</b><span>Toda semana, uma nova</span></div>
+  <img class="owl" src="coruja_final.png" alt="Coruja">
   <p class="foot">Muse é marca da Meta. Conteúdo informativo, sem vínculo com a Meta. AGTU, licença CIE #12506.</p>
 </section>
 </body></html>

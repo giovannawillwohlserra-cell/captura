@@ -31,5 +31,5 @@ Ferramenta de produção de conteúdo da AGTU. Junta as regras da marca com as o
 - Nada de "grátis", "gratuito", "sem custo" ou "30 dias". A AGTU não tem oferta gratuita.
 - Nada de promessa de emprego, salário, promoção ou prazo não confirmado (o site informa conclusão em até 18 meses).
 - Marca de terceiros (ex.: Muse, da Meta) só em conteúdo informativo, com a linha "X é marca de Y. Conteúdo informativo, sem vínculo com Y."
-- Depoimento só de aluno real e autorizado. A coruja é o avatar criado no Muse: nunca apresentada como mascote da AGTU, aluna, professora ou produto, e todo post com ela diz isso.
+- Depoimento só de aluno real e autorizado. A coruja nunca é apresentada como mascote oficial da AGTU, aluna, professora ou produto.
 - Um CTA por etapa. A última tela pode juntar topo (compartilhar) e fundo (palavra-chave no direct).

@@ -29,11 +29,13 @@ Profissional de 40 a 55 anos, com graduação e carreira feita, especialista, qu
 Referências: carrosséis de agências e criadores com papel, caneta e marca-texto (Friday Marketing, Your Social Team, Thiago Hernandes).
 - Fundo papel #F5F2EA com quadriculado azul muito leve (45 px) e textura de grão. Última tela: azul AGTU #1E417D com quadriculado branco.
 - Títulos enormes em Bricolage Grotesque 800, podendo sair da largura; uma palavra com marca-texto vermelho (#EC2023 a 32%), inclinado como feito à mão.
-- Cabeçalho de revista: "AGTU Tendências" em Instrument Serif itálico + "edição nº XX" à mão (Caveat) em azul caneta #2340D8.
-- Anotações, números circulados e setas à mão em azul caneta. Post-it amarelo #FFE15A para as falas curtas e para o CTA.
+- Cabeçalho de revista: "AGTU Tendências" e "edição nº XX" em Instrument Serif itálico; a edição em azul #2340D8.
+- Números de lista em Instrument Serif itálico ("01", "02"), azul #2340D8. Sem círculo desenhado e sem letra de mão (Caveat foi reprovada: parece amador).
+- Bloco amarelo #FFE15A só para o CTA, com texto em Bricolage Grotesque 800.
+- Fala da coruja: balão de fala limpo (retângulo arredondado azul-escuro #14254F ou branco na tela azul, com rabicho reto apontando para ela). Nunca nuvem de pensamento.
 - Prints reais colados com fita, levemente inclinados.
 - Texto de apoio em Inter, tinta #14254F.
-- **Proibido:** pílulas com texto, botões com ponto vermelho, cartões iguais com sombra, degradê de fundo, ícones genéricos. Deixam o post com cara de template de IA.
+- **Proibido:** nuvens de pensamento, letra cursiva de mão, pílulas com texto, botões com ponto vermelho, cartões iguais com sombra, degradê de fundo, ícones genéricos. Deixam o post com cara de template de IA.
 - Carrossel de 5 telas: capa (com mascote, pode ser vídeo animado), 3 telas de conteúdo sem mascote, fechamento (com mascote).
 - Capa: gancho que abre curiosidade em até 5 palavras grandes + uma pergunta que só o carrossel responde.
 - Fechamento: uma pergunta direta, o curso em destaque, um CTA com palavra-chave no post-it e uma linha de "salve".

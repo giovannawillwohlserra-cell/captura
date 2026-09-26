@@ -5,7 +5,7 @@ Um post por semana com uma tendência real das áreas em que a AGTU tem curso. Q
 ## Formato fixo
 - Carrossel de 5 telas. Capa em vídeo animado de 6 s (coruja entrando e balançando, título surgindo, marca-texto passando) + versão estática.
 - Cabeçalho de revista em todas as telas: logo AGTU à esquerda; "AGTU Tendências" + "edição nº XX" à direita.
-- Coruja só na capa e no fechamento, sempre com a linha de que é o avatar criado no Muse.
+- Coruja pequena só na capa e no fechamento, com balão de fala "AGTU Tendências".
 - Se a tendência for um produto, trazer a identidade dele (ícone oficial, nome e slogan do fabricante) e prints reais com crédito.
 
 ## Ângulo
@@ -35,4 +35,9 @@ Parágrafo curto com o que é, a curiosidade da tela 3, pergunta para comentári
 | Ciência da Computação | Linguagens, ferramentas de programação com IA |
 
 ## Primeiro episódio já feito
-#1 · "A IA ganhou mãos": Muse, o agente de IA da Meta (lançado em 8/9/2026). Palavra-chave: AGENTE.
+#1 · "A Meta lançou um funcionário": Muse, o agente de IA da Meta (lançado em 8/9/2026). Palavra-chave: AGENTE.
+
+## Aprendizados da edição nº 01 (aprovação da Giovanna)
+- Título da capa: provocação concreta ("A Meta lançou um funcionário.") funciona melhor que metáfora ("A IA ganhou mãos.").
+- Exemplos de uso: preferir o que impressiona um executivo (negocia em seu nome, trabalha com o app fechado, cartão de uso único) a tarefas domésticas.
+- Tela 3 em forma de perguntas que levam a tendência para dentro da empresa ("Se ele negocia a sua conta, quanto falta para negociar com o seu fornecedor?").
