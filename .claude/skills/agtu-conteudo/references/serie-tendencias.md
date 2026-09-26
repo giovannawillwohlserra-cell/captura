@@ -3,17 +3,20 @@
 Um post por semana com uma tendência real das áreas em que a AGTU tem curso. Quando pedirem "post do AGTU Tendências", siga este padrão.
 
 ## Formato fixo
-- Carrossel de 4 telas, Instagram (e documento no LinkedIn, que pode ir a 8 telas).
-- Selo "AGTU Tendências #N" no canto superior direito de todas as telas (pílula azul AGTU com ponto vermelho). Numerar em sequência.
-- Logo AGTU no canto superior esquerdo das telas 1 a 3; logo branco no rodapé da tela 4.
-- Coruja na capa e em todas as telas, explicando com uma fala escrita à mão (Caveat).
-- Se a tendência for um produto, trazer a identidade dele: ícone oficial, nome e slogan como o fabricante usa (ex.: "Muse · your personal AI agent · Meta"). Usar só imagens oficiais (site, loja de apps, sala de imprensa), com crédito.
+- Carrossel de 5 telas. Capa em vídeo animado de 6 s (coruja entrando e balançando, título surgindo, marca-texto passando) + versão estática.
+- Cabeçalho de revista em todas as telas: logo AGTU à esquerda; "AGTU Tendências" + "edição nº XX" à direita.
+- Coruja só na capa e no fechamento, sempre com a linha de que é o avatar criado no Muse.
+- Se a tendência for um produto, trazer a identidade dele (ícone oficial, nome e slogan do fabricante) e prints reais com crédito.
 
-## Roteiro das 4 telas
-1. **Capa:** identidade da tendência + título com o que ela faz por quem assiste + frase de contexto com data e fonte + fala da coruja chamando para arrastar.
-2. **Como funciona:** três passos ou três fatos, tirados da fonte oficial. Uma imagem real do produto quando existir.
-3. **O que ninguém te conta:** o detalhe que o público não sabe e que dá vontade de salvar (riscos, configuração, pegadinha). Dica da coruja.
-4. **Fechamento:** frase que liga a tendência ao aprendizado + cartão branco com o curso AGTU da área + palavra-chave para o direct + linha de compartilhar + aviso de marca de terceiros + CIE #12506.
+## Ângulo
+O público tem 40 a 55 anos e é especialista. Nada de passo a passo de instalação. O post responde: o que muda no trabalho de quem decide, onde isso entra na semana, e o que continua sendo decisão humana.
+
+## Roteiro das 5 telas
+1. **Capa:** gancho curto e grande que abre curiosidade ("A IA ganhou mãos.") + pergunta que só o carrossel responde + identidade da tendência + coruja com post-it "Arrasta".
+2. **O que mudou:** antes × agora, com um exemplo real tirado da fonte oficial.
+3. **Na prática:** três usos no trabalho e na rotina de quem lidera, com prints reais.
+4. **O que continua com você:** três decisões que são do profissional + uma frase de fechamento forte com marca-texto.
+5. **Fechamento:** pergunta direta ("Quer usar IA assim no seu trabalho?"), curso da área em destaque, post-it com a palavra-chave, linha de salvar, aviso de marca de terceiros, coruja fazendo joinha.
 
 ## Legenda
 Parágrafo curto com o que é, a curiosidade da tela 3, pergunta para comentário, palavra-chave para o direct, "Toda semana tem um tema novo no AGTU Tendências", fontes e hashtags (#AGTUTendencias + 3 a 4 do tema).
@@ -32,4 +35,4 @@ Parágrafo curto com o que é, a curiosidade da tela 3, pergunta para comentári
 | Ciência da Computação | Linguagens, ferramentas de programação com IA |
 
 ## Primeiro episódio já feito
-#1 · Muse, o agente de IA da Meta (lançado em 8/9/2026).
+#1 · "A IA ganhou mãos": Muse, o agente de IA da Meta (lançado em 8/9/2026). Palavra-chave: AGENTE.

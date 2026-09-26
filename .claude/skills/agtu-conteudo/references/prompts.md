@@ -194,3 +194,24 @@ Revise o post abaixo contra agtu-conteudo/SKILL.md e references/marca.md. Aponte
 7. Marca de terceiros com o aviso de "sem vínculo"?
 [POST]
 ```
+
+---
+
+## H. Datas e eventos
+
+### H1 · "Hoje é o primeiro dia do AGTU Experience" (foto com mapa)
+Referência aprovada: post de cafeteria com a pessoa segurando um copo e um mapa marcando o endereço.
+```
+Vertical 4:5 photo, smiling professional in their late 40s wearing a navy AGTU t-shirt [roupa a definir pelo evento], holding a printed event flyer with a blank front (the real flyer is added in post), standing in front of a large tablet or phone screen showing a clean map with a single red location pin over Orlando, Florida. Bright natural daylight, candid feel, shallow depth of field. No readable text anywhere, no logos except none; everything with text is added later.
+```
+Na edição: aplicar o flyer real do AGTU Experience e a etiqueta do mapa "Orlando, Flórida". Legenda: "Hoje é o primeiro dia do AGTU Experience em Orlando. Acompanhe pelos stories."
+Se for foto real do evento (melhor opção), usar o mesmo enquadramento com uma pessoa do time.
+
+## I. Pesquisa de referência
+
+### I1 · Referências de posts de negócios e educação
+```
+Pesquise contas de universidades, escolas de negócios e empresas de tecnologia que publicam conteúdo educativo para executivos (ex.: Harvard Business Review, MIT Sloan, Wharton, INSEAD, McKinsey, a16z, Notion, Figma).
+Para 10 posts recentes com alto engajamento, registre: gancho da capa, estrutura das telas, estilo visual (tipografia, cor, elementos à mão ou fotográficos) e CTA.
+Tire 5 padrões que a AGTU pode usar sem copiar e 3 que não combinam com a marca.
+```

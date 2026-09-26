@@ -1,4 +1,6 @@
-# Mascote: a coruja da AGTU
+# A coruja (avatar criado no Muse)
+
+**Importante:** a coruja não é o mascote oficial da AGTU. É o avatar do agente que a equipe criou no Muse, da Meta. Todo post em que ela aparece precisa dizer isso em uma linha visível (ex.: "Esta coruja é o avatar do agente que a gente criou no Muse") e repetir na legenda. Se a AGTU adotar um mascote oficial no futuro, atualizar este arquivo.
 
 Arquivo com fundo transparente: `assets/coruja.png` (recortado da arte aprovada pela Giovanna).
 
@@ -7,8 +9,10 @@ Coruja antropomórfica em estilo 3D realista-fofo, penas azuis e brancas com pon
 
 ## Regras de uso
 - Nunca espelhar a imagem: o cachecol tem o logo e vira texto invertido.
-- A coruja explica, comenta e brinca. Não é aluna, não é professora, não dá depoimento.
-- Fala sempre em balão branco com letra Caveat, frase curta (até 12 palavras).
+- A coruja explica, comenta e brinca. Não é aluna, não é professora, não dá depoimento e não é apresentada como mascote da universidade.
+- Aparece só na capa e na última tela. As telas do meio são de conteúdo.
+- Poses disponíveis: `coruja.png` (acenando, capa) e `coruja_final.png` (substituir pela pose de joinha enviada pela Giovanna).
+- Fala sempre em post-it amarelo com letra Caveat, frase curta (até 12 palavras).
 - Uma coruja por tela. Ela pode sair da borda da arte (corte na borda dá movimento).
 
 ## Prompt para novas poses (Nano Banana / Gemini, GPT Image ou similar, sempre com a imagem de referência anexada)

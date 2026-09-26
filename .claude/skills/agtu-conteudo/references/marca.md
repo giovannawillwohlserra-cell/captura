@@ -17,7 +17,7 @@ Cursos no site (agtu.us/pt, conferido em 26/09/2026):
 Confirmar a lista no site antes de citar quantidade de programas.
 
 ## Público
-Profissional de 40 a 55 anos, com graduação e carreira feita, que quer o próximo nível. Não está descobrindo a profissão.
+Profissional de 40 a 55 anos, com graduação e carreira feita, especialista, que quer o próximo nível. Não está descobrindo a profissão e não quer tutorial de instalar aplicativo: quer saber o que a tendência muda no trabalho, na liderança e na rotina, e como decidir sobre ela.
 
 ## Voz
 - De igual para igual. Calma, segura, com humor leve quando cabe.
@@ -25,13 +25,18 @@ Profissional de 40 a 55 anos, com graduação e carreira feita, que quer o próx
 - "Seu futuro" no máximo uma vez por peça, e só no fim.
 - Humor vem da identificação (rotina de quem estuda trabalhando, família, IA fazendo trapalhada), nunca de ridicularizar o público.
 
-## Visual (série AGTU Tendências e posts de IA)
-- Fundo claro com degradê céu: #FFFFFF → #EAF3FF → #BFDBFF.
-- Azul AGTU #1E417D para títulos de destaque e selo da série; tinta #0E1F3D para texto.
-- Vermelho #EC2023 só como detalhe (ponto do selo, alerta).
-- Tipografia: Inter Tight 800 (títulos), Inter (texto), Caveat 700 (falas da coruja, escritas à mão).
-- Tela final pode ser azul-escuro (#0F2B5B → #1E417D) com cartão branco de CTA.
-- Formato 1080×1350. Texto mínimo de 28 px na arte final.
+## Visual (padrão aprovado em 26/09/2026: "caderno de estudo")
+Referências: carrosséis de agências e criadores com papel, caneta e marca-texto (Friday Marketing, Your Social Team, Thiago Hernandes).
+- Fundo papel #F5F2EA com quadriculado azul muito leve (45 px) e textura de grão. Última tela: azul AGTU #1E417D com quadriculado branco.
+- Títulos enormes em Bricolage Grotesque 800, podendo sair da largura; uma palavra com marca-texto vermelho (#EC2023 a 32%), inclinado como feito à mão.
+- Cabeçalho de revista: "AGTU Tendências" em Instrument Serif itálico + "edição nº XX" à mão (Caveat) em azul caneta #2340D8.
+- Anotações, números circulados e setas à mão em azul caneta. Post-it amarelo #FFE15A para as falas curtas e para o CTA.
+- Prints reais colados com fita, levemente inclinados.
+- Texto de apoio em Inter, tinta #14254F.
+- **Proibido:** pílulas com texto, botões com ponto vermelho, cartões iguais com sombra, degradê de fundo, ícones genéricos. Deixam o post com cara de template de IA.
+- Carrossel de 5 telas: capa (com mascote, pode ser vídeo animado), 3 telas de conteúdo sem mascote, fechamento (com mascote).
+- Capa: gancho que abre curiosidade em até 5 palavras grandes + uma pergunta que só o carrossel responde.
+- Fechamento: uma pergunta direta, o curso em destaque, um CTA com palavra-chave no post-it e uma linha de "salve".
 
 ## CTA por etapa
 | Etapa | Pedido | Exemplo |
