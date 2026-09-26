@@ -10,7 +10,7 @@ Personagem fofo de pelúcia, corpo arredondado e peludo cor bege-areia, rosto li
 ## Regras de uso
 - Nunca espelhar a imagem: o cachecol tem o logo e vira texto invertido.
 - A coruja explica, comenta e brinca. Não é aluna, não é professora, não dá depoimento e não é apresentada como mascote da universidade.
-- Aparece só na capa e na última tela. As telas do meio são de conteúdo.
+- Aparece só na capa. A última tela é do curso, sem mascote.
 - Poses disponíveis: `coruja.png` (acenando, capa) e `coruja_final.png` (substituir pela pose de joinha enviada pela Giovanna).
 - Fala sempre em balão de fala limpo (ver marca.md). Na capa e no fechamento, o balão diz "AGTU Tendências" + edição ou "Toda semana, uma nova".
 - Tamanho pequeno: cerca de 330 px de largura na arte de 1080 px.
