@@ -13,20 +13,28 @@ Personagem fofo de pelúcia, corpo arredondado e peludo cor bege-areia, rosto li
 - Fala só no balão da capa: "Série: AGTU Tendências" (Nunito 800, azul AGTU).
 - Tamanho: cerca de 330 px de largura na arte de 1080 px, no canto inferior direito, com sombra suave encostada nos pés.
 
-## Animação da capa (aprovada em 26/09/2026)
-O mascote não entra deslizando e não balança. Ele fica no lugar e:
-- pisca duas vezes (0,4 s e 4,2 s);
-- respira (1,4% de escala vertical a cada 3 s);
-- depois que o balão aparece, levanta o antebraço do lado do texto e acena chamando (1,4 s a 3,5 s), com o corpo inclinando de leve e girando um pouco em 3D;
-- a imagem parada da capa é o quadro de 2,9 s, com o aceno no alto.
+## Capa em vídeo (aprovada em 26/09/2026)
+A capa usa o vídeo do mascote acenando enviado pela Giovanna: `assets/mascote_acenando.mp4` (10 s, 24 fps, com som). Ele começa e termina na mesma pose, então repete sem corte.
+- A IA do vídeo troca o brasão do cachecol por outro escudo a partir de ~1 s. `bash scripts/quadros-do-mascote.sh` extrai os quadros, cola o logo certo em cada um (alinhado pelas letras AGTU), deixa o fundo branco puro e reduz para 362 px em `assets/mframes/`.
+- No template, o quadro entra com mesclagem "multiplicar" sobre o fundo branco (sem caixa em volta), abaixo do balão, com sombra suave nos pés. A capa parada usa o quadro 25 (braço erguido, olhos abertos).
+- Exportar: `bash scripts/quadros-do-mascote.sh`, depois `node assets/exportar-png-e-video.js video` e juntar os quadros em MP4 a 24 fps com o áudio do vídeo original (comando no `SKILL.md`).
+- Todo vídeo novo do mascote: conferir o logo do cachecol quadro a quadro antes de usar.
 
-Camadas em `assets/`, todas do tamanho da imagem original e empilhadas nesta ordem:
-1. `m_base.png`: corpo sem o antebraço e sem os olhos;
-2. `m_antebraco.png`: gira no cotovelo (origem 22,34% × 48,51%);
-3. `m_cotovelo.png`: disco de pelo que esconde a emenda;
-4. `m_olho_e.png` e `m_olho_d.png`: piscam com scaleY.
-
-CSS e keyframes em `template-tendencias.html` (classe `rig`). Para refazer as camadas a partir de outra imagem do mascote, use `scripts/montar-aceno-mascote.py` (ajustar a dobra do braço, o cotovelo e a posição dos olhos) e confira a folha de poses que ele gera.
+### Alternativa sem vídeo: aceno por camadas
+Se não houver vídeo, o mascote parado acena por camadas (mesmo tamanho da imagem original, nesta ordem): `m_base.png`, `m_antebraco.png` (gira no cotovelo, origem 22,34% × 48,51%), `m_cotovelo.png`, `m_olho_e.png` e `m_olho_d.png` (piscam com scaleY). O CSS e os keyframes continuam no template (classe `rig`). Marcação:
+```html
+<div class="mwrap rig">
+  <div class="mshadow"></div>
+  <div class="breath"><div class="lean">
+    <img class="lay" src="m_base.png" alt="Mascote">
+    <img class="lay fore" src="m_antebraco.png" alt="">
+    <img class="lay" src="m_cotovelo.png" alt="">
+    <img class="lay eye e" src="m_olho_e.png" alt="">
+    <img class="lay eye d" src="m_olho_d.png" alt="">
+  </div></div>
+</div>
+```
+Para refazer as camadas a partir de outra imagem: `scripts/montar-aceno-mascote.py`.
 
 ## Prompt para novas poses (Nano Banana / Gemini, GPT Image ou similar, sempre com a imagem de referência anexada)
 ```

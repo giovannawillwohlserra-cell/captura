@@ -22,7 +22,7 @@ Ferramenta de produção de conteúdo da AGTU. Junta as regras da marca com as o
 3. **Estrutura.** Carrossel da série: 6 telas no padrão da edição 01 (ver `serie-tendencias.md`). Outros carrosséis: 5 a 8 telas, uma ideia por tela. Use a skill `social` (referência `carousel-frameworks.md`) para escolher o formato narrativo.
 4. **Gancho.** Gere 5 opções com a skill `hook-generator` e escolha a mais específica.
 5. **Texto.** Escreva e passe pela skill `humanizer` e pela lista de vícios em português de `marca.md`.
-6. **Arte.** Parta de `assets/template-tendencias.html`. Regras da skill `frontend-design`. Exporte com `node assets/exportar-png-e-video.js` (PNG de todas as telas, na ordem da lista `ordem` do script; com o argumento `video`, gera os quadros da capa animada, depois junte em MP4 com ffmpeg).
+6. **Arte.** Parta de `assets/template-tendencias.html`. Regras da skill `frontend-design`. Exporte com `node assets/exportar-png-e-video.js` (PNG de todas as telas, na ordem da lista `ordem` do script; com o argumento `video`, gera os quadros da capa animada). Antes, gere os quadros do mascote com `bash scripts/quadros-do-mascote.sh`. MP4 da capa: `ffmpeg -framerate 24 -i frames/f%04d.png -i mascote_acenando.mp4 -map 0:v -map 1:a -vf "scale=1080:1350,format=yuv420p" -c:v libx264 -crf 18 -c:a aac -shortest -movflags +faststart capa.mp4`.
 7. **Revisão visual.** Abra os PNGs e confira: texto sobreposto, linha que quebra sozinha, mascote espelhado (o cachecol tem texto: nunca espelhar), legibilidade em miniatura, logo com ® em todas as telas.
 8. **Entrega.** PNGs 1080×1350 + legenda + texto alternativo + resposta automática da palavra-chave + fontes.
 

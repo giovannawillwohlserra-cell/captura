@@ -271,6 +271,10 @@ p{font-weight:400}
   30%{transform:rotate(-2.4deg) rotateY(-8deg) scale(.995,1.02)}
   34%,50%{transform:rotate(-1.8deg) rotateY(-7deg) scale(1,1)}
   60%,100%{transform:rotate(0deg) rotateY(0deg) scale(1,1)}}
+/* capa com o vídeo do mascote acenando (quadros tratados em mframes/, 24 fps) */
+.s1 .mvid{position:absolute;left:690px;top:783px;width:362px;height:auto;mix-blend-mode:multiply;z-index:1}
+.s1 .speech{z-index:3}
+.s1 .mshadow2{position:absolute;left:784px;top:1183px;width:180px;height:26px;border-radius:50%;background:radial-gradient(closest-side,rgba(20,37,79,.24),rgba(20,37,79,0));z-index:0}
 </style></head><body>
 
 <section class="slide s1 anim" id="s1">
@@ -282,16 +286,8 @@ p{font-weight:400}
   </div>
   <div class="muse"><img src="muse_icon.png" alt="Muse"><p><b>Muse</b>your personal AI agent, Meta</p></div>
   <div class="speech"><small>Série:</small> AGTU Tendências</div>
-  <div class="mwrap rig">
-    <div class="mshadow"></div>
-    <div class="breath"><div class="lean">
-      <img class="lay" src="m_base.png" alt="Mascote">
-      <img class="lay fore" src="m_antebraco.png" alt="">
-      <img class="lay" src="m_cotovelo.png" alt="">
-      <img class="lay eye e" src="m_olho_e.png" alt="">
-      <img class="lay eye d" src="m_olho_d.png" alt="">
-    </div></div>
-  </div>
+  <div class="mshadow2"></div>
+  <img class="mvid" id="mvid" src="mframes/f025.png" alt="Mascote acenando">
   <div class="foot"><span>American Global Tech University</span><span>01 / 06</span></div>
 </section>
 
@@ -329,7 +325,7 @@ p{font-weight:400}
     <div class="then"><span>Em 2024, eram</span><b>0%.</b></div>
     <p class="punch">Quem decide vai precisar <em>entender de IA.</em></p>
   </div>
-  <div class="foot"><span>Fonte: Gartner, projeção divulgada em 25/6/2025</span><span>03 / 06</span></div>
+  <div class="foot"><span>Fonte: Gartner, projeção divulgada em 25/6/2025</span><span>04 / 06</span></div>
 </section>
 
 <section class="slide s3" id="s3">
@@ -344,7 +340,7 @@ p{font-weight:400}
     </div>
     <p class="closing">Sem precisar ser comandado a cada passo.</p>
   </div>
-  <div class="foot"><span>American Global Tech University</span><span>04 / 06</span></div>
+  <div class="foot"><span>American Global Tech University</span><span>03 / 06</span></div>
 </section>
 
 <section class="slide s4" id="s4">
