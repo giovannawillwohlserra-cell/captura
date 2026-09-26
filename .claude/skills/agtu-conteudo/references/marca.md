@@ -34,7 +34,7 @@ O post precisa parecer feito por uma universidade, não por um perfil de dicas.
 - Listas com linhas finas separando os itens e numeração discreta em vermelho ("01").
 - Blocos de destaque com cantos quase retos (raio 6 px): cinza-claro para frases, azul AGTU para a pergunta principal.
 - Mascote pequeno só na capa e no fechamento, com balão "Série: AGTU Tendências".
-- Última tela vende o curso, sem balão: frase de contexto pequena; pergunta grande em branco ("Você está se preparando para ela?"); cartão branco com filete vermelho à esquerda como ponto focal ("Domine a IA com o" + nome do curso em azul, grande); 4 disciplinas reais; CTA com a palavra-chave em caixa vermelha; mascote pequeno; licença CIE + ASIC no rodapé.
+- Última tela vende o curso, sem balão: frase de impacto grande ("A próxima oportunidade vai exigir uma nova competência."); "Domine a IA com o Mestrado em Inteligência Artificial da AGTU." no mesmo tamanho, com o nome do curso em destaque (fundo branco, texto azul, filete vermelho embaixo); 4 diferenciais com ✓ (100% online, diploma internacional, aulas em português, aulas ao vivo toda semana); "O que você estuda" com 4 disciplinas reais; CTA com a palavra-chave em caixa vermelha; mascote pequeno; licença CIE + ASIC no rodapé.
 - **Proibido:** papel quadriculado, marca-texto, post-it, letra de mão, nuvem de pensamento, pílulas, várias fontes. Parecem perfil de dicas.
 
 ## CTA por etapa
