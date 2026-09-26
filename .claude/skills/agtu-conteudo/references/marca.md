@@ -28,6 +28,9 @@ Profissional de 40 a 55 anos, com graduação e carreira feita, especialista, qu
 ## Visual (padrão aprovado em 26/09/2026: "caderno de estudo")
 Referências: carrosséis de agências e criadores com papel, caneta e marca-texto (Friday Marketing, Your Social Team, Thiago Hernandes).
 - Fundo papel #F5F2EA com quadriculado azul muito leve (45 px) e textura de grão. Última tela: azul AGTU #1E417D com quadriculado branco.
+- **Uma única família de fonte em todo o post: Bricolage Grotesque (400 a 800).** Nada de segunda fonte.
+- Logo AGTU sempre com ® ao lado.
+- "AGTU TENDÊNCIAS" aparece só no balão do mascote (capa e fechamento), em caixa alta com espaçamento. Não repetir nas páginas internas.
 - Títulos enormes em Bricolage Grotesque 800, podendo sair da largura; uma palavra com marca-texto vermelho (#EC2023 a 32%), inclinado como feito à mão.
 - Cabeçalho de revista: "AGTU Tendências" e "edição nº XX" em Instrument Serif itálico; a edição em azul #2340D8.
 - Números de lista em Instrument Serif itálico ("01", "02"), azul #2340D8. Sem círculo desenhado e sem letra de mão (Caveat foi reprovada: parece amador).
