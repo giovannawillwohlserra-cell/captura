@@ -19,6 +19,7 @@ O MP4 da capa usa o vídeo do mascote acenando enviado pela Giovanna: `assets/ma
 - A IA do vídeo troca o brasão do cachecol por outro escudo a partir de ~1 s. `bash scripts/quadros-do-mascote.sh` extrai os quadros, cola o logo certo em cada um (alinhado pelas letras AGTU), deixa só o fundo branco puro (nada dentro do contorno do mascote é clareado: clarear a imagem inteira "estoura" o rosto) e reduz para 362 px em `assets/mframes/`.
 - No template, o quadro entra com mesclagem "multiplicar" sobre o fundo branco (sem caixa em volta), abaixo do balão, com sombra suave nos pés.
 - Exportar: `bash scripts/quadros-do-mascote.sh`, depois `node assets/exportar-png-e-video.js video` e juntar os quadros em MP4 a 24 fps, sem áudio (comando no `SKILL.md`).
+- O MP4 começa completo: texto parado desde o 1º quadro e o mascote a partir do quadro 25 (já acenando), dando a volta no vídeo. No carrossel, a miniatura do post é o 1º quadro do vídeo e o Instagram não deixa escolher outra.
 - Todo vídeo novo do mascote: conferir o logo do cachecol quadro a quadro antes de usar.
 
 ### Aceno por camadas (capa parada e alternativa sem vídeo)

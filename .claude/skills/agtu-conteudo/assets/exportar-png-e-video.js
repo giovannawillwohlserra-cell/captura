@@ -4,6 +4,8 @@ const fs = require('fs');
 const ordem = ['s1', 's2', 's3', 'sd', 's4', 's5'];
 const FPS = 24, TOTAL = 240;      // vídeo do mascote: 10 s a 24 fps
 const nome = n => `mframes/f${String(n).padStart(3, '0')}.png`;
+// o vídeo começa no quadro 25 (mascote já acenando) e dá a volta: o 1º quadro vira a miniatura do post
+const INICIO = 25;
 (async () => {
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1200, height: 1500 } });
@@ -20,9 +22,9 @@ const nome = n => `mframes/f${String(n).padStart(3, '0')}.png`;
     await p.evaluate(() => { const s = document.getElementById('s1'); s.classList.remove('parado'); s.classList.add('video'); });
     fs.mkdirSync('frames', { recursive: true });
     for (let f = 0; f < TOTAL; f++) {
-      const t = f * 1000 / FPS;
-      await p.evaluate(t => document.getAnimations().forEach(a => { a.pause(); a.currentTime = t; }), t);
-      await quadro(f + 1);
+      // texto completo desde o 1º quadro (miniatura do carrossel = 1º quadro do vídeo); só o mascote se mexe
+      await p.evaluate(() => document.getAnimations().forEach(a => { a.pause(); a.currentTime = 2900; }));
+      await quadro(((f + INICIO - 1) % TOTAL) + 1);
       await p.locator('#s1').screenshot({ path: `frames/f${String(f).padStart(4, '0')}.png` });
     }
   }
