@@ -1,25 +1,30 @@
 # Série AGTU Tendências
 
-Um post por semana com uma tendência real das áreas em que a AGTU tem curso. Quando pedirem "post do AGTU Tendências", siga este padrão.
+Um post por semana com uma tendência real das áreas em que a AGTU tem curso. Quando pedirem "post do AGTU Tendências", siga este padrão (aprovado pela Giovanna na edição 01, em 26/09/2026).
 
 ## Formato fixo
-- Carrossel de 5 telas. Capa em vídeo animado de 6 s (coruja entrando e balançando, título surgindo, marca-texto passando) + versão estática.
-- Nome da série só no balão do mascote: "Série: AGTU Tendências". Não repetir nas páginas internas.
-- Coruja pequena só na capa e no fechamento, com balão de fala "AGTU Tendências".
-- Se a tendência for um produto, trazer a identidade dele (ícone oficial, nome e slogan do fabricante) e prints reais com crédito.
+- Carrossel de 6 telas + capa animada de 6 s em MP4 (mascote entrando e balançando, título subindo, balão aparecendo) + versão estática.
+- Nome da série só no balão do mascote: "Série: AGTU Tendências" (Nunito 800). Não repetir nas páginas internas.
+- Mascote de pelúcia pequeno só na capa. Nunca dizer que ele foi criado em alguma IA.
+- Se a tendência for um produto, trazer a identidade dele na capa (ícone oficial, nome e slogan do fabricante) e a fonte no rodapé da tela do fato.
+- Arquivo-base: `assets/template-tendencias.html`. Exportação: `assets/exportar-png-e-video.js`.
 
 ## Ângulo
 O público tem 40 a 55 anos e é especialista. Nada de passo a passo de instalação. O post responde: o que muda no trabalho de quem decide, onde isso entra na semana, e o que continua sendo decisão humana.
 
-## Roteiro das 5 telas
-1. **Capa:** gancho curto e grande que abre curiosidade ("A IA ganhou mãos.") + pergunta que só o carrossel responde + identidade da tendência + coruja com post-it "Arrasta".
-2. **O que mudou:** antes × agora, com um exemplo real tirado da fonte oficial.
-3. **Na prática:** três usos no trabalho e na rotina de quem lidera, com prints reais.
-4. **O que continua com você:** três decisões que são do profissional + uma frase de fechamento forte com marca-texto.
-5. **Fechamento:** pergunta direta ("Quer usar IA assim no seu trabalho?"), curso da área em destaque, post-it com a palavra-chave, linha de salvar, aviso de marca de terceiros, coruja fazendo joinha.
+## Roteiro das 6 telas (edição 01)
+1. **Capa (gancho):** provocação concreta e grande ("A IA já está começando a *negociar por você.*") + uma frase com o fato + identidade do produto + mascote com balão.
+2. **O fato:** o que foi lançado e o que ele faz, em lista numerada curta, com fonte e data no rodapé; fecha com uma frase que resume a mudança.
+3. **O dado de mercado:** número grande de fonte reconhecida (ex.: Gartner) escrito com a precisão da fonte ("pelo menos 15%"), gráfico de 100 quadrados, o ponto de partida em destaque ("Em 2024, eram 0%.") e uma frase em caixa azul que motiva a estudar ("Quem decide vai precisar *entender de IA.*").
+4. **Na empresa:** a tendência dentro de uma empresa, em três linhas curtas + frase de fechamento em caixa cinza.
+5. **O desafio de quem lidera:** título com a competência em destaque ("O novo desafio será *governar agentes de IA.*"), três perguntas de liderança e a pergunta principal em caixa azul.
+6. **A formação:** frase de impacto, cartão do curso, "O que você estuda" com 4 itens da página do curso ligados ao tema, CTA com a palavra-chave e "grade completa" e "condições de bolsa" em destaque (ver `marca.md`).
 
 ## Legenda
-Parágrafo curto com o que é, a curiosidade da tela 3, pergunta para comentário, palavra-chave para o direct, "Toda semana tem um tema novo no AGTU Tendências", fontes e hashtags (#AGTUTendencias + 3 a 4 do tema).
+Não repetir as telas. Acrescentar contexto (ex.: o aviso do próprio fabricante), um segundo dado, uma pergunta para comentário, o CTA com a palavra-chave, fontes com data, a linha de marca de terceiros, "Toda semana, uma tendência nova na série AGTU Tendências." e hashtags (#AGTUTendencias + 3 a 4 do tema). Entregar junto a resposta automática da palavra-chave.
+
+## Divulgação para alunos
+Para o grupo de alunos do curso ligado ao tema: convite curto com o dado mais forte, o link do post, uma pergunta aberta para comentarem e o pedido de compartilhar com quem precisa ver. Nunca pedir que comentem a palavra-chave: a automação mandaria a grade para quem já é aluno.
 
 ## Banco de temas (confirmar fatos na semana)
 | Curso AGTU | Onde procurar a tendência |
@@ -34,13 +39,14 @@ Parágrafo curto com o que é, a curiosidade da tela 3, pergunta para comentári
 | Tecnologias Digitais (Educação) | IA na sala de aula, políticas do MEC |
 | Ciência da Computação | Linguagens, ferramentas de programação com IA |
 
-## Primeiro episódio já feito
-#1 · "A Meta lançou um funcionário": Muse, o agente de IA da Meta (lançado em 8/9/2026). Palavra-chave: AGENTE.
+## Edição 01
+Muse, o agente de IA da Meta (lançado nos EUA em 8/9/2026). Dado: Gartner, projeção divulgada em 25/6/2025. Curso: Mestrado em Inteligência Artificial. Palavra-chave: MESTRADO.
 
-## Aprendizados da edição nº 01 (aprovação da Giovanna)
-- Título da capa: provocação concreta ("A Meta lançou um funcionário.") funciona melhor que metáfora ("A IA ganhou mãos.").
-- Exemplos de uso: preferir o que impressiona um executivo (negocia em seu nome, trabalha com o app fechado, cartão de uso único) a tarefas domésticas.
-- Tela 3 em forma de perguntas que levam a tendência para dentro da empresa ("Se ele negocia a sua conta, quanto falta para negociar com o seu fornecedor?").
-
-- Texto final da edição 01 foi escrito pela Giovanna; usar como referência de tom: frases diretas, perguntas para quem lidera, fechamento que vende o curso.
-- Evitar citar Harvard/MIT e outras universidades parceiras sem confirmação jurídica, e evitar duração do curso (o site em português diz até 24 meses; o em inglês, até 18).
+## Aprendizados da edição 01
+- Provocação concreta funciona melhor que metáfora ("A IA ganhou mãos" foi recusada).
+- Exemplos que impressionam um executivo (negocia em seu nome, trabalha com o app fechado) valem mais que tarefa doméstica.
+- Perguntas para quem lidera levam a tendência para dentro da empresa.
+- Um dado de fonte reconhecida, com a precisão da fonte, dá autoridade de universidade e motiva a estudar.
+- O texto final da edição 01 foi escrito pela Giovanna: usar como referência de tom (frases diretas, perguntas para quem lidera, fechamento que vende o curso).
+- Uma versão B feita 100% pelo pacote `agtu-academic-carousel` (fato, dado, alerta, competência, formação) foi testada; ficou só a tela do dado.
+- Não citar Harvard/MIT e outras universidades parceiras sem confirmação jurídica. Não citar duração do curso.

@@ -16,6 +16,8 @@ Cursos no site (agtu.us/pt, conferido em 26/09/2026):
 - Bacharelado em Ciência da Computação
 Confirmar a lista no site antes de citar quantidade de programas.
 
+Informação de curso (disciplinas, diferenciais, "O que você estuda"): usar só o que está na página do curso anunciado, em qualquer seção dela. Nada de outras páginas do site. Página do Mestrado em IA: agtu.us/pt/programs/graduate-programs/computer-science/master-artificial-inteligence/
+
 ## Público
 Profissional de 40 a 55 anos, com graduação e carreira feita, especialista, que quer o próximo nível. Não está descobrindo a profissão e não quer tutorial de instalar aplicativo: quer saber o que a tendência muda no trabalho, na liderança e na rotina, e como decidir sobre ela.
 
@@ -33,8 +35,9 @@ O post precisa parecer feito por uma universidade, não por um perfil de dicas.
 - Barra vermelha curta (72 × 6 px) acima de cada título. Destaque de palavra-chave: azul AGTU com sublinhado vermelho.
 - Listas com linhas finas separando os itens e numeração discreta em vermelho ("01").
 - Blocos de destaque com cantos quase retos (raio 6 px): cinza-claro para frases, azul AGTU para a pergunta principal.
-- Mascote pequeno só na capa e no fechamento, com balão "Série: AGTU Tendências".
-- Última tela vende o curso em quatro zonas separadas por respiro, lidas nesta ordem: (1) frase de impacto em branco, 60 px; (2) cartão branco com "Domine a IA com o" pequeno, nome do curso grande em azul e "da AGTU", e embaixo de uma linha fina os diferenciais pequenos com ✓ vermelho, todos numa única linha (100% online, aulas em português, ao vivo toda semana, diploma internacional); (3) "O que você estuda" em 2 colunas, texto claro menor; (4) CTA em moldura com contorno branco (fundo transparente), "Comente" grande com a palavra-chave em caixa branca e o complemento menor embaixo. Nada de faixa vermelha. Itens de "O que você estuda" com bolinha vermelha antes. Licença CIE + ASIC no rodapé. Sem balão e sem mascote na última tela: o mascote aparece só na capa.
+- Mascote pequeno só na capa, com balão "Série: AGTU Tendências".
+- Tela de dado: número grande (240 px), gráfico de 100 quadrados com a parte do dado em vermelho, ponto de partida em vermelho grande ("Em 2024, eram 0%.") e fonte com data no rodapé.
+- Última tela vende o curso em quatro zonas separadas por respiro, lidas nesta ordem: (1) frase de impacto em branco, 60 px; (2) cartão branco com "Domine a IA com o" pequeno, nome do curso grande em azul e "da AGTU" no mesmo tamanho, sem negrito, na mesma linha; embaixo de uma linha fina os diferenciais pequenos com ✓ vermelho, todos numa única linha (100% online, aulas em português, ao vivo toda semana, diploma internacional); (3) "O que você estuda" em 2 colunas, texto claro menor, com 4 itens da página do curso ligados ao tema do post (edição 01: Ética em IA e IA Responsável, IA nos Negócios e Indústria, Engenharia de IA, Robótica e Sistemas Autônomos); (4) CTA em moldura com contorno branco (fundo transparente), "Comente" grande com a palavra-chave em caixa branca e, embaixo, "e receba a grade completa e as condições de bolsa" em branco, com "grade completa" e "condições de bolsa" em negrito e sublinhado vermelho. Nada de faixa vermelha. Itens de "O que você estuda" com bolinha vermelha antes. Licença CIE + ASIC no rodapé. Sem balão e sem mascote na última tela: o mascote aparece só na capa.
 - **Proibido:** papel quadriculado, marca-texto, post-it, letra de mão, nuvem de pensamento, pílulas, várias fontes. Parecem perfil de dicas.
 
 ## CTA por etapa
@@ -42,8 +45,8 @@ O post precisa parecer feito por uma universidade, não por um perfil de dicas.
 |---|---|---|
 | Topo | Salvar ou compartilhar | "Mande para quem já ia clicar em 'permitir tudo'." |
 | Meio | Comentar ou responder story | "Qual dessas você nunca tinha pensado?" |
-| Fundo | Palavra-chave no direct, WhatsApp, link | "Comente MUSE e receba a grade no direct." |
-Toda palavra-chave precisa de resposta em até 1 hora (automação ou comercial).
+| Fundo | Palavra-chave no direct, WhatsApp, link | "Comente MESTRADO e receba a grade completa e as condições de bolsa." |
+Toda palavra-chave precisa de resposta em até 1 hora (automação ou comercial). Configure a automação por post, para a palavra mandar a grade do curso daquele post.
 
 ## Vícios de texto de IA em português (cortar sempre)
 - "Vale ressaltar", "é importante destacar", "no cenário atual", "cada vez mais", "nos dias de hoje"

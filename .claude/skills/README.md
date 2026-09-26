@@ -20,7 +20,8 @@ Skills selecionadas em 26/09/2026 para produzir Reels, Stories, carrosséis e po
 | `video` | Planejamento e produção de vídeo curto com IA ou código (Remotion, HeyGen, Veo). | coreyhaines31/marketingskills (MIT) |
 | `image` | Prompts e produção de imagem para redes, com regras de consistência de marca. | coreyhaines31/marketingskills (MIT) |
 | `ad-creative` | Variações de criativo para anúncio pago (Meta, LinkedIn, YouTube). | coreyhaines31/marketingskills (MIT) |
-| `agtu-conteudo` | **A ferramenta da AGTU.** Regras de marca, série AGTU Tendências, mascote coruja, template do carrossel, exportação em PNG e biblioteca com mais de 25 prompts (pauta, ganchos, legenda, humor, imagem, vídeo, stories, revisão). | Criada para a AGTU |
+| `agtu-conteudo` | **A ferramenta da AGTU.** Regras de marca, série AGTU Tendências (6 telas), mascote de pelúcia, template do carrossel, exportação em PNG e MP4 e biblioteca com mais de 25 prompts (pauta, ganchos, legenda, humor, imagem, vídeo, stories, revisão). | Criada para a AGTU |
+| `agtu-academic-carousel` | Pacote da Giovanna: carrossel acadêmico em arco (gancho → contexto → impacto → implicação → lacuna → CTA), 8 estruturas, checklist e 11 prompts em `PROMPT_PACK.md`. | AGTU Content System |
 | `instagram-carousel` | Gera carrosséis em HTML com sistema de design e exporta PNG 1080×1350. | jeevanbavandla/instagram-carousel-skill (MIT) |
 | `frontend-design` | Direção visual que foge do "template de IA": tipografia, grid, hierarquia. Base dos carrosséis e artes em HTML. | anthropics/skills (Apache 2.0) |
 

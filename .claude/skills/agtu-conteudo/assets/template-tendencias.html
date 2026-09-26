@@ -204,6 +204,40 @@ p{font-weight:400}
 .checks{gap:0 14px!important}
 .checks span{font-size:20.5px!important;padding-left:22px!important}
 .checks span::before{top:7px!important;width:10px!important;height:6px!important}
+.card5 .name .da{font-weight:400;letter-spacing:-0.015em}
+/* respiro igual entre título, cartão, estudo e CTA; colunas no tamanho do conteúdo (sem quebra) */
+.card5{top:452px!important}
+.study{top:868px!important}
+.study ul{grid-template-columns:max-content max-content!important;column-gap:72px!important}
+/* tela 3 · dado Gartner (vinda da versão B) */
+.sd h2{font-size:84px;max-width:920px}
+.sd .data{display:grid;grid-template-columns:1fr 372px;gap:48px;margin-top:54px;align-items:start}
+.sd .cap{font-size:22px;font-weight:650;letter-spacing:.14em;text-transform:uppercase;color:var(--navy);margin-bottom:14px}
+.sd .big{font-size:240px;font-weight:700;letter-spacing:-0.045em;line-height:.8;color:var(--ink)}
+.sd .big small{font-size:.5em;letter-spacing:-0.02em}
+.sd .txt{font-size:34px;line-height:1.32;color:var(--text);margin-top:34px}
+.sd .txt b{color:var(--ink);font-weight:650}
+.waffle{display:grid;grid-template-columns:repeat(10,30px);gap:8px;margin-top:40px}
+.waffle i{width:30px;height:30px;background:#E3E7EF;border-radius:3px}
+.waffle i.on{background:var(--red)}
+.legend{font-size:20px;color:#7A849A;margin-top:18px;font-weight:500;display:flex;align-items:center;gap:10px}
+.legend::before{content:"";width:16px;height:16px;background:var(--red);border-radius:2px}
+.sd .then{margin-top:48px;border-top:1.5px solid var(--line);padding-top:26px;display:flex;align-items:baseline;gap:20px}
+.sd .then span{font-size:44px;font-weight:600;letter-spacing:-0.015em;color:var(--ink)}
+.sd .then b{font-size:96px;font-weight:700;letter-spacing:-0.035em;line-height:1;color:var(--red)}
+.sd .punch{margin-top:auto;background:var(--navy);color:#fff;border-radius:6px;padding:32px 40px;font-size:46px;font-weight:650;letter-spacing:-0.015em;line-height:1.14}
+.sd .punch em{font-style:normal;text-decoration:underline;text-decoration-color:var(--red);text-decoration-thickness:6px;text-underline-offset:10px}
+
+/* tela 6 · grade e bolsa em destaque no CTA */
+.ctabar b{font-size:42px!important}
+.ctabar span{font-size:31px!important;color:#fff!important;font-weight:500!important;margin-top:4px}
+.ctabar span strong{font-weight:700;text-decoration:underline;text-decoration-color:#FF5A5C;text-decoration-thickness:4px;text-underline-offset:8px}
+.study ul{column-gap:56px!important}
+.study li{font-size:27px!important}
+.sd h2{font-size:72px!important;white-space:nowrap}
+.sd .waffle{margin-top:36px!important}
+.sd .then{margin-top:40px!important}
+.foot{gap:24px}
 </style></head><body>
 
 <section class="slide s1 anim" id="s1">
@@ -216,7 +250,7 @@ p{font-weight:400}
   <div class="muse"><img src="muse_icon.png" alt="Muse"><p><b>Muse</b>your personal AI agent, Meta</p></div>
   <div class="speech"><small>Série:</small> AGTU Tendências</div>
   <div class="mwrap"><img src="mascote.png" alt="Mascote"></div>
-  <div class="foot"><span>American Global Tech University</span><span>01 / 05</span></div>
+  <div class="foot"><span>American Global Tech University</span><span>01 / 06</span></div>
 </section>
 
 <section class="slide s2" id="s2">
@@ -234,7 +268,26 @@ p{font-weight:400}
     </div>
     <p class="quote">A mudança é importante: a IA deixa de apenas responder e passa a agir.</p>
   </div>
-  <div class="foot"><span>Fonte: Meta Newsroom, 8/9/2026. Muse é marca da Meta, sem vínculo com a AGTU.</span><span>02 / 05</span></div>
+  <div class="foot"><span>Fonte: Meta, 8/9/2026. Muse é marca da Meta, sem vínculo com a AGTU.</span><span>02 / 06</span></div>
+</section>
+
+<section class="slide sd" id="sd">
+  <div class="head"><div class="logo"><img src="logo_color.png" alt="AGTU"><sup>®</sup></div></div>
+  <div class="body">
+    <div class="bar"></div>
+    <h2>O mercado está mudando.</h2>
+    <div class="data">
+      <div>
+        <p class="cap">Até 2028, pelo menos</p>
+        <p class="big">15<small>%</small></p>
+        <p class="txt">das <b>decisões do dia a dia no trabalho</b> serão tomadas por agentes de IA.</p>
+      </div>
+      <div><div class="waffle" id="waffle"></div><p class="legend">1 quadrado = 1% das decisões</p></div>
+    </div>
+    <div class="then"><span>Em 2024, eram</span><b>0%.</b></div>
+    <p class="punch">Quem decide vai precisar <em>entender de IA.</em></p>
+  </div>
+  <div class="foot"><span>Fonte: Gartner, projeção divulgada em 25/6/2025</span><span>03 / 06</span></div>
 </section>
 
 <section class="slide s3" id="s3">
@@ -249,7 +302,7 @@ p{font-weight:400}
     </div>
     <p class="closing">Sem precisar ser comandado a cada passo.</p>
   </div>
-  <div class="foot"><span>American Global Tech University</span><span>03 / 05</span></div>
+  <div class="foot"><span>American Global Tech University</span><span>04 / 06</span></div>
 </section>
 
 <section class="slide s4" id="s4">
@@ -264,7 +317,7 @@ p{font-weight:400}
     </div>
     <div class="box"><p>E, principalmente</p><b>Você está preparado para liderar uma equipe que inclui agentes de IA?</b></div>
   </div>
-  <div class="foot"><span>American Global Tech University</span><span>04 / 05</span></div>
+  <div class="foot"><span>American Global Tech University</span><span>05 / 06</span></div>
 </section>
 
 <section class="slide s5 v4" id="s5">
@@ -275,15 +328,18 @@ p{font-weight:400}
   </div>
   <div class="card5">
     <p class="pre">Domine a IA com o</p>
-    <p class="name">Mestrado em Inteligência Artificial</p>
-    <p class="post">da AGTU</p>
+    <p class="name">Mestrado em Inteligência Artificial <span class="da">da AGTU</span></p>
     <div class="checks"><span>100% online</span><span>Aulas em português</span><span>Ao vivo toda semana</span><span>Diploma internacional</span></div>
   </div>
   <div class="study">
     <p class="lab">O que você estuda</p>
-    <ul><li>Engenharia de IA</li><li>Aplicações de IA</li><li>Processamento de Linguagem Natural</li><li>Robótica e Sistemas Autônomos</li></ul>
+    <ul><li>Ética em IA e IA Responsável</li><li>IA nos Negócios e Indústria</li><li>Engenharia de IA</li><li>Robótica e Sistemas Autônomos</li></ul>
   </div>
-    <div class="ctabar"><b>Comente <em>AGENTE</em></b><span>e receba a grade completa e as condições de bolsa</span></div>
-  <div class="foot"><span>Universidade americana licenciada na Flórida (CIE #12506) e acreditada pela ASIC</span><span>05 / 05</span></div>
+    <div class="ctabar"><b>Comente <em>MESTRADO</em></b><span>e receba a <strong>grade completa</strong> e as <strong>condições de bolsa</strong></span></div>
+  <div class="foot"><span>Universidade americana licenciada na Flórida (CIE #12506) e acreditada pela ASIC</span><span>06 / 06</span></div>
 </section>
+<script>
+  const w = document.getElementById('waffle');
+  for (let i = 0; i < 100; i++) { const q = document.createElement('i'); if (i < 15) q.className = 'on'; w.appendChild(q); }
+</script>
 </body></html>
