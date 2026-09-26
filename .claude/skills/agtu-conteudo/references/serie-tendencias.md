@@ -3,7 +3,7 @@
 Um post por semana com uma tendência real das áreas em que a AGTU tem curso. Quando pedirem "post do AGTU Tendências", siga este padrão (aprovado pela Giovanna na edição 01, em 26/09/2026).
 
 ## Formato fixo
-- Carrossel de 6 telas + capa em vídeo de 10 s (o vídeo do mascote acenando, `assets/mascote_acenando.mp4`, com título e balão entrando por cima; ver `mascote.md`) + versão estática com o aceno.
+- Carrossel de 6 telas + capa em vídeo de 10 s sem áudio (o vídeo do mascote acenando, `assets/mascote_acenando.mp4`, com título e balão entrando por cima; ver `mascote.md`) + capa parada com o mascote por camadas acenando.
 - Nome da série só no balão do mascote: "Série: AGTU Tendências" (Nunito 800). Não repetir nas páginas internas.
 - Mascote de pelúcia pequeno só na capa. Nunca dizer que ele foi criado em alguma IA.
 - Se a tendência for um produto, trazer a identidade dele na capa (ícone oficial, nome e slogan do fabricante) e a fonte no rodapé da tela do fato.

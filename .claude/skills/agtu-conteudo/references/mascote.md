@@ -14,14 +14,15 @@ Personagem fofo de pelúcia, corpo arredondado e peludo cor bege-areia, rosto li
 - Tamanho: cerca de 330 px de largura na arte de 1080 px, no canto inferior direito, com sombra suave encostada nos pés.
 
 ## Capa em vídeo (aprovada em 26/09/2026)
-A capa usa o vídeo do mascote acenando enviado pela Giovanna: `assets/mascote_acenando.mp4` (10 s, 24 fps, com som). Ele começa e termina na mesma pose, então repete sem corte.
-- A IA do vídeo troca o brasão do cachecol por outro escudo a partir de ~1 s. `bash scripts/quadros-do-mascote.sh` extrai os quadros, cola o logo certo em cada um (alinhado pelas letras AGTU), deixa o fundo branco puro e reduz para 362 px em `assets/mframes/`.
-- No template, o quadro entra com mesclagem "multiplicar" sobre o fundo branco (sem caixa em volta), abaixo do balão, com sombra suave nos pés. A capa parada usa o quadro 25 (braço erguido, olhos abertos).
-- Exportar: `bash scripts/quadros-do-mascote.sh`, depois `node assets/exportar-png-e-video.js video` e juntar os quadros em MP4 a 24 fps com o áudio do vídeo original (comando no `SKILL.md`).
+O MP4 da capa usa o vídeo do mascote acenando enviado pela Giovanna: `assets/mascote_acenando.mp4` (10 s, 24 fps). Ele começa e termina na mesma pose, então repete sem corte. Publicar sem áudio.
+- A capa parada (PNG) usa o mascote por camadas acenando (ver abaixo), que não tem o brilho do vídeo. O template troca sozinho: classe `parado` no PNG, `video` no MP4.
+- A IA do vídeo troca o brasão do cachecol por outro escudo a partir de ~1 s. `bash scripts/quadros-do-mascote.sh` extrai os quadros, cola o logo certo em cada um (alinhado pelas letras AGTU), deixa só o fundo branco puro (nada dentro do contorno do mascote é clareado: clarear a imagem inteira "estoura" o rosto) e reduz para 362 px em `assets/mframes/`.
+- No template, o quadro entra com mesclagem "multiplicar" sobre o fundo branco (sem caixa em volta), abaixo do balão, com sombra suave nos pés.
+- Exportar: `bash scripts/quadros-do-mascote.sh`, depois `node assets/exportar-png-e-video.js video` e juntar os quadros em MP4 a 24 fps, sem áudio (comando no `SKILL.md`).
 - Todo vídeo novo do mascote: conferir o logo do cachecol quadro a quadro antes de usar.
 
-### Alternativa sem vídeo: aceno por camadas
-Se não houver vídeo, o mascote parado acena por camadas (mesmo tamanho da imagem original, nesta ordem): `m_base.png`, `m_antebraco.png` (gira no cotovelo, origem 22,34% × 48,51%), `m_cotovelo.png`, `m_olho_e.png` e `m_olho_d.png` (piscam com scaleY). O CSS e os keyframes continuam no template (classe `rig`). Marcação:
+### Aceno por camadas (capa parada e alternativa sem vídeo)
+O mascote parado acena por camadas (mesmo tamanho da imagem original, nesta ordem): `m_base.png`, `m_antebraco.png` (gira no cotovelo, origem 22,34% × 48,51%), `m_cotovelo.png`, `m_olho_e.png` e `m_olho_d.png` (piscam com scaleY). O CSS e os keyframes continuam no template (classe `rig`). Marcação:
 ```html
 <div class="mwrap rig">
   <div class="mshadow"></div>
