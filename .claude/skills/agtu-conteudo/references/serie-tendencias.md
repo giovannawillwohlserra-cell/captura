@@ -21,10 +21,10 @@ O público tem 40 a 55 anos e é especialista. Nada de passo a passo de instala�
 6. **A formação:** frase de impacto, cartão do curso, "O que você estuda" com 4 itens da página do curso ligados ao tema, CTA com a palavra-chave e "grade completa" e "condições de bolsa" em destaque (ver `marca.md`).
 
 ## Legenda
-Não repetir as telas. Acrescentar contexto (ex.: o aviso do próprio fabricante), um segundo dado, uma pergunta para comentário, o CTA com a palavra-chave, fontes com data, a linha de marca de terceiros, "Toda semana, uma tendência nova na série AGTU Tendências." e hashtags (#AGTUTendencias + 3 a 4 do tema). Entregar junto a resposta automática da palavra-chave.
+Curta (a Giovanna prefere assim): gancho, um fato que não está nas telas, uma pergunta para comentário, o CTA com a palavra-chave, fontes numa linha só e 4 hashtags; até cerca de 80 palavras sem contar fontes e hashtags. Não repetir as telas. Acrescentar contexto (ex.: o aviso do próprio fabricante), um segundo dado, uma pergunta para comentário, o CTA com a palavra-chave, fontes com data, a linha de marca de terceiros, "Toda semana, uma tendência nova na série AGTU Tendências." e hashtags (#AGTUTendencias + 3 a 4 do tema). Entregar junto a resposta automática da palavra-chave.
 
 ## Divulgação para alunos
-Para o grupo de alunos do curso ligado ao tema: convite curto com o dado mais forte, o link do post, uma pergunta aberta para comentarem e o pedido de compartilhar com quem precisa ver. Nunca pedir que comentem a palavra-chave: a automação mandaria a grade para quem já é aluno.
+Para o grupo de alunos do curso ligado ao tema: convite de até cerca de 50 palavras com o dado mais forte, o link do post, uma pergunta aberta para comentarem e o pedido de compartilhar com quem precisa ver. Nunca pedir que comentem a palavra-chave: a automação mandaria a grade para quem já é aluno.
 
 ## Banco de temas (confirmar fatos na semana)
 | Curso AGTU | Onde procurar a tendência |
